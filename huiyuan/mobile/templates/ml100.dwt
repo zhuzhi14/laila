@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png"/>
+    <title>消息中心</title>
+    <link rel='stylesheet' type='text/css' href='css/safety.css' />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/head.css" rel="stylesheet" type="text/css" />
+    <link href="css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/dtree.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+    <script src="js/jquery.touchScroll.js" type="text/javascript"></script>
+    <script src="js/dtree.js" type="text/javascript"></script>
+    <script src="js/user.js" type="text/javascript"></script>
+    <script src="js/transport2.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+
+    <style>
+        section{margin-top:0px}
+
+        .ml_head{max-width: 100%;margin:0 auto;height:95px;background-color:#ffffff}
+
+        .tab-content{width:100%}
+
+        .head_img{
+              height:75px;
+              width:75px;
+             display: inline-block;
+             margin-top:10px;
+               margin-left:8%;
+              border-radius: 75px;
+            
+
+
+        }
+
+        .head_info{
+
+            display:inline-block;
+            float: right;
+            margin-top:30px;
+            margin-right: 30%;
+            font-size: 1.2em;
+
+
+        }
+      .ml_gou{
+          background-color: #ffffff;
+          width:100%;
+          margin: 0 auto;
+          height:100px;
+
+      }
+
+      .ml_gou_list{
+          width:90%;
+          font-size: 1.2em;
+          margin-left:5%;
+          margin-top:15px;
+          display: inline-block;
+
+      }
+
+        .ml_gou_info{
+            width:100%;
+            font-size: 1.2em;
+
+            margin-top:8px;
+            display: inline-block;
+            background-color: #ffffff;
+
+        }
+
+
+        .ml_gou_fo{
+            width:90%;
+
+            margin-left:8%;
+            margin-top:15px;
+            display: inline-block;
+
+        }
+
+        .buy_num{
+            width:80%;
+
+        }
+        .buy_uname{
+            width: 80%;
+            
+        }
+       .ml100_head{
+
+             margin-top:-20px;
+       }
+    .align{
+        margin-top:15px;
+    }
+
+     #btn{
+         background-color: #0199D9;
+
+     }
+   </style>
+</head>
+<body>
+<section>
+  <div class="pending-order">
+
+    <!-- {if $action eq 'ml100'} -->
+    <!--<div class='bread_new'>{$lang.label_upvip}</div> -->
+
+	<div id="header" class="header">
+	    <span class="headline">购买麦啦订单</span>
+	</div>
+        <script type="text/javascript">
+            function submit(obj){
+               // obj.submit();
+            }
+            function IsNumChar(yx){
+                var reyx= /^[0-9]+/;
+                return(reyx.test(yx));
+            }
+            function check(theForm){
+                if((theForm.buy_uname.value == "") || (theForm.buy_uname.value.length != 11)){
+                    alert("请输入购买订单的11位用户号（手机号）-1 !!");theForm.buy_uname.focus();return false;
+                }
+                if(!IsNumChar(theForm.buy_uname.value)){
+                    alert("请输入购买订单的11位用户号（手机号）-2 !!");theForm.buy_uname.focus();return false;
+                }
+                if(theForm.buy_num.value == ""){
+                    alert("请输入购买订单的数量!");theForm.buy_num.focus();return false;
+                }
+                if(!IsNumChar(theForm.buy_num.value)){
+                    alert("请输入购买订单的数量!");theForm.buy_num.focus();return false;
+                }
+                //theform.submit();
+            }
+            function checkbd(theForm){
+               // theform.submit();
+            }
+            function   checkmaila(){
+                var selectcon;
+               // var selectIndex = document.getElementById("selMltype").selectedIndex;
+                var select=document.getElementsByName("mltype");
+                for(var i=0;i<select.length;i++){
+
+                    if(select[i].checked) {
+                     // alert(11111);
+                    //  console.log(select[i]);
+                    selectcon=select[i].value;
+
+                    }else{
+                       // alert("请选择订单类型");
+                        //return false;
+                    }
+
+                }
+
+                if(selectcon=='MD300'){
+                    selectcon="100元购买300M币货";
+                }else if(selectcon=="MD100L"){
+                    selectcon="100元购买100M币货赠送100L币";
+                }else if(selectcon=="MD1000"){
+                    selectcon="1000元购买1000M币货赠送500T币500L币";
+                }else{
+
+                   alert("你还未选择订单类型");
+                    return false;
+                }
+
+
+                var  con= confirm("您即将购买订单:<"+selectcon+">,此操作无法撤销！");
+                if(con){
+
+                    document.getElementById("formEdit").submit();
+                }else{
+
+                    return ;
+                }
+
+
+            }
+
+
+        </script>
+        <div class="ml_head">
+
+           <!-- <div class="head_img">
+
+            <img src="{$src}" style="width:100%;height: auto;border-radius: 75px">
+            </div>-->
+
+            <div class="head_info">
+                 <div>名字:{$user_name}</div>
+                 <div>可用余额:{$amount}&nbsp;&nbsp;<a href="pay.php" style="color:#0199D9;font-size: 1.2em">充值</a> </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="tab-content code-area">
+            <form onSubmit="javascript:return checkbd();" id="myform_zhifubox" name="formEdit" action="ml100.php?act=act_add_order" method="post" >
+                <p style="height: 8px">&nbsp;</p>
+
+              <div  class="ml_gou">
+                  <div class="ml_gou_list">
+                <p>购买订单类型</p>
+                <div class="clearfix">
+
+                        <!-- {foreach from=$mltypelist item=mltype} -->
+                        <input  type="radio" id="mltype" name="mltype" value="{$mltype.mltype}" {if $mltype.mltype eq 'MD100L'}checked='true'{/if} ><span>{$mltype.mlname}</span><br />
+                        <!-- {/foreach} -->
+                </div>
+                </div>
+              </div>
+                <div  class="ml_gou_info">
+                    <div class="ml_gou_fo">
+                <p><font style="color:#FF0000"> *</font>用户号</p>
+                <input class="buy_uname" type="text" name="buy_uname" value="{$myphone}" id="buy_uname"/>
+                <p><font style="color:#FF0000"> *</font>购单数</p>
+                <input class="buy_num"  type="text" value="1" name="buy_num" id="buy_num"/>
+
+                <input  type="hidden" value="{$ml_phone}" name="ml_phone">
+
+                        <p>支付方式</p>
+       {if $buyflag eq 0}
+                 <input type="radio" name="buy_method"   value="yepay" checked="checked">余额支付<br />
+                        <input type="radio" name="buy_method" value="bcpay" >支付宝或者微信支付<br />
+      {/if}
+
+       {if  $buyflag  eq 1}
+                        <input type="radio" name="buy_method" value="bcpay" checked="checked">支付宝或者微信支付<br />
+        {/if}
+
+                {if $flag eq 0}
+                <div class="align"><button class="sub_btn" id="btn"   onclick="checkmaila();return false">购买</button></div></div>
+                {else}
+        <div class="align">您暂时无法购买</div>
+               {/if}
+            </form>
+            <div id="zhifubox"></div>
+            <font style="color:#0199D9;font-size: 1.2em">小提示：</font>
+            <table width=100% cellspacing=5 cellpadding=5 >
+                <td>&nbsp;</td>
+                <tr align="left" height='30'>
+                    <td  color="#eee">余额可以购买麦啦订单。合伙人可代别人购买，其他会员只能自己购买。多购不限。</td>
+                </tr>
+                <td>&nbsp;</td>
+            </table>
+
+
+            </div>
+            </div>
+        </div>
+
+
+
+  <!-- {/if} -->
+  <!--#ml100 end-->
+
+  <!-- {if $action eq 'ml100msg'} -->
+  	<table width=100% cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+			<tr align="center" height='30'>
+					<td  color="#eee"><font style="color:#FF0000">{$message.content}</td> 
+			</tr>
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+    </table> 	  
+  <!-- {/if} -->
+  <!--#ml100msg end-->
+
+</div>
+</section>
+<script type="text/javascript">
+    var global_loading=document.getElementById("global_loading");
+    global_loading.parentNode.removeChild(global_loading);
+</script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png"/>
+	<title>资金管理</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/head.css" rel="stylesheet" type="text/css" />
+	<link href="css/foot.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+	<script src="js/jquery.lazyload.js" type="text/javascript"></script>
+	<script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+	<script src="js/jquery.touchScroll.js" type="text/javascript"></script>
+	<script src="js/transport2.js" type="text/javascript"></script>
+	<script src="js/user.js" type="text/javascript"></script>
+    <script src="js/zhifubox.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+</head>
+<body> 
+	<div class="header"><a class="back" href="javascript:history.back();"></a><span class="headline">资金管理</span><a class="search" href="search.php"></a></div>
+	<section>
+	<div class="m_cat">
+		<table width=100% cellspacing=5 cellpadding=5 border=0>
+			<tr>
+				<td bgcolor='#ffffff' height='30' align='center' >
+					<a href="account.php">资金明细</a>  <a href="account.php?act=account_detail">账户明细</a>  <a href="account.php?act=account_deposit"><font class="red">汇款登记</font></a>	 <a href="account.php?act=account_credit"><font class="green">提现</font></a>  <a href="account.php?act=account_goldtransfer"><font class="red">转账</font></a> 
+				</td>
+			</tr>
+		</table>
+       <!-- {if $act eq "account_log"}-->
+
+ 		<table width=100% cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+			<tr align='left' height='30'>
+				<td bgcolor='#ffffff'>操作时间</td>
+				<td bgcolor='#ffffff'>类型</td>
+				<td bgcolor='#ffffff'>金额</td>
+				<td bgcolor='#ffffff'>状态</td>
+				<td bgcolor='#ffffff'>操作</td>
+			</tr>
+          <!--{foreach from=$account_log item=item}-->
+			<tr align='left' height='30'>
+            <td bgcolor="#ffffff">{$item.add_time}</td>
+            <td bgcolor="#ffffff">{$item.type}</td>
+            <td bgcolor="#ffffff">{$item.amount}</td>
+            <td bgcolor="#ffffff">{$item.pay_status}</td>
+            <td bgcolor="#ffffff">{$item.handle}
+              <!-- {if ($item.is_paid eq 0 && $item.process_type eq 1) || $item.handle} -->
+              <a href="account.php?act=cancel&id={$item.id}" onclick="if (!confirm('确定取消吗？')) return false;">取消</a>
+              <!-- {/if} -->
+            </td>
+          </tr>
+          <!--{foreachelse}-->
+          <tr height='30'>
+            <td align="center" bgcolor="#ffffff" colspan="5" class="red">暂无记录</td>
+          </tr>
+          <!--{/foreach}-->
+		  <tr height='30'>
+			<td bgcolor="#ffffff" align="left" colspan="5">
+			您当前的可用金额为:<font class="f2" color='red'>{$surplus_amount}</font>
+			</td>
+		  </tr>		
+		</table>
+        {$pagebar}
+		<!-- {/if} -->
+        <!-- {if $act eq "account_detail"} -->
+ 		<table width=100% cellspacing=5 cellpadding=5 border=1 bordercolor="#000">		
+          <tr align="left" height='30'>
+            <td bgcolor="#ffffff">操作时间</td>
+            <td bgcolor="#ffffff">余额</td>
+            <td bgcolor="#ffffff">金币</td>
+            <td bgcolor="#ffffff">备注</td>
+          </tr>
+          <!--{foreach from=$account_log item=item}-->
+          <tr align="left" height='30'>
+            <td bgcolor="#ffffff">{$item.change_time}</td>
+            <td bgcolor="#ffffff">{$item.user_money}</td>
+            <td bgcolor="#ffffff">{$item.pay_points}</td>
+            <td bgcolor="#ffffff">{$item.short_change_desc}</td>
+          </tr>
+          <!--{foreachelse}-->
+          <tr height='30'>
+            <td align="center" bgcolor="#ffffff" colspan="4" class="red">暂无记录</td>
+          </tr>
+          <!--{/foreach}-->
+        </table>
+        {$pagebar}
+        <!-- {/if} -->
+        <!-- {if $act eq "account_deposit"} -->
+        <script type="text/javascript">
+            function submit(obj){
+                obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入充值金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+                theform.submit();
+            }
+        </script>
+        <form name="theForm" method="post" action="account.php" onSubmit="javascript:return check(theForm);">
+ 		<table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+                <tr>
+                    <td align="left" bgcolor="#ffffff" style="padding:15px;">充值金额：<br><input type="text" name="amount" value="{$order.amount|escape}" style="width:100px;border:1px solid #ccc;" /></td>
+                </tr>
+                <tr>
+                    <td align="left" bgcolor="#ffffff" style="padding:15px;">备注：<br><textarea name="user_note" rows="3" style="width:100%;border:1px solid #ccc;">{$order.user_note|escape}</textarea></td>
+                </tr>
+               <tr>
+                   <td>
+                       1、小额资金可以选择gpos充值或支付宝、微信支付在线支付方式，金额限制请查询支付宝规范，如果汇款金额超过支付宝在线支付限制，推荐使用银行汇款方式。<br />
+                       2、大额资金请选择汇款方式。汇款户名：上海通卡投资管理有限公司客户备付金，开户行:北京银行上海长宁支行,汇款账号：2000002925523105012721。<br />
+                       可以使用银行汇款、网银汇款、支付宝转账等多种方式进行汇款。<br />
+                       汇款成功后在此填写汇款确认单，备注内容：汇款人名，汇款账号，汇款金额。<br />
+                   </td>
+               </tr>
+            </table>
+            <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="0" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="act_account" />
+                        <input type="submit" name="submit" value="提交申请" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!-- {/if} -->
+        <!-- {if $act eq "account_credit"} -->
+        <script type="text/javascript">
+            function submit(obj){
+               // obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入提款金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+               // theform.submit();
+            }
+        </script>
+  {if $realnameflag eq 0}
+        <form name="theForm" method="post" action="account.php"  id="myform_zhifubox">
+        <table width="100%" border="1" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+	          <tr>
+	            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;说明:</td>
+	            <td bgcolor="#fffff" >即时提款功能已经开通，请完成实名认证、提款银行卡注册，可以使用此功能。</td>
+	            </td>
+	          </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+{/if}
+{if $realnameflag eq 1}
+        <form name="theForm" method="post"  id="myform_zhifubox" action="account.php" >
+        <table width="100%" border="1" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+  			<p>&nbsp;</p>
+          
+ 	          <tr>
+	            <td width="25%" bgcolor="#ffffff" >&nbsp;&nbsp;说明:</td>
+	            <td bgcolor="#fffff" >即时提款，选择提款银行卡并输入提款金额，提款后 2小时内到账。</br>提款手续费10%,原有余额不收手续费。</td>
+	            </td>
+	          </tr>
+		                <tr>
+		                  <td bgcolor="#ffffff">请选择提款卡:</td>
+		                  <td colspan="3" align="left" bgcolor="#ffffff"><select name="bankaccount" id="selcard_{$sn}">
+		                      <option value="0">请选择卡号</option>
+		                      <!-- {foreach from=$realnamedata item=card} -->
+		                      <option value="{$card.bankaccount}" {if $card.cardtype eq 2}selected{/if}>{$card.bankaccount}</option>
+		                      <!-- {/foreach} -->
+		                    </select>
+		                  </td>
+		                </tr>
+		          
+	          <tr>
+	            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;可提款金额:</td>
+	            <td bgcolor="#fffff" >{$surplus_amount}<br />
+	            </td>
+	          </tr>
+	          <tr>
+	            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;提款金额:</td>
+	            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" class="inputBg" size="30" />
+	            </td>
+	          </tr>
+
+            </table>
+            <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="1" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="act_account" />
+                      <button onclick="zhifucheck();return false">提现</button>-->
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+{/if}
+        
+       <!-- {/if} -->
+        <!-- {if $act eq "account_award"} -->
+        <script type="text/javascript">
+            function submit(obj){
+                obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入充值金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+                theform.submit();
+            }
+        </script>
+        <form name="theForm" method="post" action="account.php" id="myform_zhifubox">
+ 		<table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+           <tr>
+            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;积分余额:</td>
+            <td bgcolor="#fffff" >{$award_amount}</td>
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;转提金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" id="amount" value=""  onblur="sum_award_amount({$tb_bal},this.value,{$award_bl});" class="inputBg" size="30" />
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;到账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_amount" id="s_amount" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+        	
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;注意信息:</td>
+            <td bgcolor="#ffffff">积分转提收取{$award_bl}%手续费，<br>比如：转提10000元，实际到账户<br>金额{$award_je}元！</td>
+            </td>
+          </tr>
+ 
+             <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="2" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="act_account" />
+                        <button  clas="btn" onclick="zhifucheck();return false ">提交申请</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+       <!-- {/if} -->
+       <!-- {if $act eq "account_goldtransfer"} -->
+        <script type="text/javascript">
+            function submit(obj){
+              //  obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入金币转出金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+               // theform.submit();
+            }
+        </script>
+        <form name="theForm" method="post" action="account.php" id="myform_zhifubox">
+ 		<table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+           <tr>
+            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;余额:</td>
+            <td bgcolor="#fffff" >{$balance}元</td>
+           </tr>
+           <tr>
+            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;金币余额:</td>
+            <td bgcolor="#fffff" >{$gold_balance}M币</td>
+          </tr>
+          
+           <tr>
+	      	  <td>购买订单类型</td>
+	      	  <td>
+	      	  <div class="clearfix">
+	          <select name="tftype" id="tftype" ">
+	            <option value="0">类型</option>
+	            <!-- {foreach from=$transferlist item=tftype} -->
+	            <option value="{$tftype.tftype}" {if $deftftype == $tftype.tftype}selected="selected"{/if}>{$tftype.tfname}</option>
+	            <!-- {/foreach} -->
+	          </select>
+	          </div>
+	          </td>
+          </tr>
+                    
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;转账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" id="amount" value=""  onblur="sum_gold_amount({$balance},{$tb_bal},{$gold_balance},this.value);" class="inputBg" size="30" />
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;到账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_amount" id="s_amount" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+          <tr>
+            <td width="15%" bgcolor="#fffff"  align="right">转出用户:</td>
+            <td bgcolor="#fffff" id="myphone" >{$myphone}</td>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="15%" bgcolor="#ffffff" align="right">转入账户:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="tocode" id="tocode" value=""  onblur="get_user_name(this.value);" class="inputBg" size="30" />
+            </td>
+          </tr>
+
+          <tr>
+            <td width="15%" bgcolor="#ffffff" align="right">转入名称:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_username" id="s_username" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+        	
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;提示信息:</td>
+            <td bgcolor="#ffffff">转账收取5%手续费，比如：转账10000元，实际到积分（金币)账户金额9500元！</td>
+            </td>
+          </tr>
+ 
+             <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="3" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="act_account" />
+                       <button class="btn" onclick="zhifucheck();return false">提交申请</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+       <!-- {/if} -->
+       <!--{if $act eq "act_account"}-->
+          <table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">
+             <tr align="left">
+                <td bgcolor="#fff" style="padding:15px;">充值金额：</td>
+                <td bgcolor="#fff" style="padding:15px;">{$amount}</td>
+            	</tr>
+                <tr align="left">
+                <td bgcolor="#fff" style="padding:15px;">支付方式：</td>
+                <td bgcolor="#fff" style="padding:15px;">{$payment.pay_name}</td>
+           		</tr>
+                <tr align="left">
+                <td bgcolor="#fff" style="padding:15px;">手续费：</td>
+                <td bgcolor="#fff" style="padding:15px;">{$pay_fee}</td>
+            	</tr>
+                <tr align="left">
+                <td bgcolor="#fff" style="padding:15px;">描述：</td>
+                <td bgcolor="#fff" style="padding:15px;">{$payment.pay_desc}</td>
+            </tr>
+            <tr align="center">
+                <td bgcolor="#fff" style="padding:8px 0;" colspan="2" class="cz_btn">
+                     {$payment.pay_button}
+                </td>
+            </tr>
+        </table>
+        <!--{/if}-->
+	</div>
+</section>
+{include file='foot.dwt'}
+<script type="text/javascript">
+		var global_loading=document.getElementById("global_loading");
+		global_loading.parentNode.removeChild(global_loading);
+</script>
+</body>
+</html>

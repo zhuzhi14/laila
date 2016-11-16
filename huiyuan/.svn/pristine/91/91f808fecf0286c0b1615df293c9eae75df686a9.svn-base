@@ -1,0 +1,36 @@
+﻿<!--页面底部-->
+{if $disphard neq 1 and $disphard neq 2}
+		<div class="viewport">
+
+			<div id="footer" class="footer">
+                <!--
+				<div class="row g_1">
+					<a href="index.php">首页</a>
+					{if $user_name}<a href="user.php?act=user_center">会员中心</a>{else}<a href='user.php?act=login'>会员登录</a>{/if}
+					<a href="cart.php">购物车</a>
+				</div>
+				<div class="row g_2">
+					<a href="javascript:window.scrollTo(0,0);">返回顶部</a>
+				</div>
+
+			</div>-->
+		</div>
+<div id="link_foot">
+    <div class="row g_1">
+       <ul class="link_ul">
+        <li><a href="index.php">首页</a></li>
+        <li><a href="category.php">全部商品</a></li>
+        <li><a href="cart.php">购物车</a></li>
+        <li>{if $user_name}<a href="user.php?act=user_center">会员中心</a>{else}<a href='user.php?act=login'>会员登录</a>{/if}</li>
+
+        <li><a href="javascript:window.scrollTo(0,0);">返回顶部</a></li>
+      </ul>
+    </div>
+
+</div>
+
+<!--页面底部-->
+
+
+{include file='weixin_share.dwt'}
+{/if}

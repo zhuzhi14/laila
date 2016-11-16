@@ -1,0 +1,45 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2016/4/26
+ * Time: 9:03
+ */
+
+
+define('IN_ECS', true);
+define('ECS_ADMIN', true);
+
+require(dirname(__FILE__) . '/includes/init.php');
+require_once(ROOT_PATH . '/includes/lib_main.php');
+require_once(ROOT_PATH . '/includes/lib_tdwsys.php');
+
+
+
+
+//var_dump($_SESSION);
+
+if(!empty($_SESSION['user_id'])){
+    $userid=$_SESSION['user_id'];
+    $groupid="02";
+    $action="ml100";
+    $balance=$_SESSION['balance'];
+    $award_bal=$_SESSION['award_bal'];
+    $res=gc_mlmobilebuy($userid,$groupid);
+
+    $smarty->assign('balance', $balance);
+    $smarty->assign('award_bal', $award_bal);
+    $smarty->assign('amount', $balance+$award_bal);
+    $smarty->assign("mltypelist",$res);
+    $smarty->assign('action', $action);
+    $smarty->display('ml100.dwt');
+
+
+}else{
+
+ //   show_message('你还未登录', "用户中心", 'user.php?act=user_center',true);
+    echo "<script>window.location.href='user.php?act=user_center&link=ml100'</script>";
+}
+
+
+

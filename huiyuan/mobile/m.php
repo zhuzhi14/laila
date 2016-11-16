@@ -1,0 +1,118 @@
+<?php
+
+/**
+ *微信分享注册
+*/
+
+define('IN_ECS', true);
+define('ECS_ADMIN', true);
+
+require(dirname(__FILE__) . '/includes/init.php');
+require_once(ROOT_PATH . '/includes/lib_tdwsys.php');
+
+$action = isset($_GET['act']) ? $_GET['act'] : '';
+$smarty->assign('action', $action);
+
+if ($action == 'wx_reg')
+{	
+    $phone = @isset($_SESSION['phone']) ? $_SESSION['phone'] :$_GET['phone'];
+    $smarty->assign('phone', $phone) ;    
+    $smarty->assign('back_act','act_register') ;
+    $smarty->display('wx_in.dwt');
+    exit;
+} else {
+    $action = "wx_in" ;
+    if (isset($_GET['phone'])) {
+        $phone = $_GET['phone'] ;
+    } else if (@$_GET['user_id']) {
+        $reid=@$_GET['user_id'] ;
+        $row = gc_getuserinfo($reid) ;
+        if ($row == null) exit() ;
+        $phone = $row['phone'] ;
+    } else {
+        exit ;
+    }
+    $_SESSION['phone'] = $phone ;
+
+    $newurl = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+    //var_dump($newurl);
+    $num = strrpos($newurl, '/');
+    // $shorturl = substr($newurl, $num + 1);
+    $yuanurl = substr($newurl, 0, $num);
+
+    $url='http://'.$yuanurl.'/m.php?act=wx_reg&phone='.$phone;
+
+    $name_url="images/erweima/".$phone;
+    if(!file_exists($name_url)){
+        mkdir($name_url);
+    }
+
+    $name_share=$name_url."/share.png";
+    if(!file_exists($name_share)){
+
+        $qr = erweima($url, $name_share);
+
+    }
+
+    $wx_in="images/wx_3.png";
+    $link="images/erweima/".$phone.'/wx_in4.png';
+
+   if(!file_exists($link)) {
+       tupian($name_share, $wx_in, $phone);
+
+   }
+   // echo $link;
+    $smarty->assign('phone', $_SESSION['phone']) ;
+    $smarty->assign('imagesrc',$link);
+    $smarty->assign('back_act','wx_reg') ;
+    $smarty->assign('action', $action);
+    $smarty->display('wx_in.dwt');
+    exit;
+}
+
+
+function erweima($url,$name){
+    require_once(ROOT_PATH."/phpqrcode/phpqrcode.php");
+    $value = $url; //二维码内容
+    $errorCorrectionLevel = 'L';//容错级别
+    $matrixPointSize = 6;//生成图片大小
+//生成二维码图片
+    QRcode::png($value, $name, $errorCorrectionLevel, $matrixPointSize, 2);
+
+
+}
+
+
+
+
+function  tupian($erweima,$image,$phone){
+
+    $logo= imagecreatefromstring(file_get_contents($erweima));
+    $QR = imagecreatefromstring(file_get_contents($image));
+    $QR_width = imagesx($QR);//宽度
+    $QR_height = imagesy($QR);//高度
+
+
+    $logo_width = imagesx($logo);//logo图片宽度
+    $logo_height = imagesy($logo);//logo图片高度
+   // echo $QR_width;
+   // echo $QR_height;
+
+    //重新组合图片并调整大小
+    imagecopyresampled($QR, $logo, 200, 635, 0,0, $QR_width-400,
+        $QR_height-685, $logo_width,$logo_height);
+
+//输出图片
+    $link="images/erweima/".$phone;
+  imagepng($QR, $link.'/wx_in4.png');
+
+
+
+
+
+
+
+
+
+}
+

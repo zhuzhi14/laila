@@ -1,0 +1,342 @@
+<!-- 用户中心-修改密码页 -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png"/>
+	<title>安全中心</title>
+	<link rel='stylesheet' type='text/css' href='css/safety.css' />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/head.css" rel="stylesheet" type="text/css" />
+	<link href="css/foot.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    {insert_scripts files='transport2.js,common.js,utils.js'}
+	<script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(/images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+</head>
+
+<body>
+	<div class="header">
+		<a class="back" href="javascript:history.back();"></a>
+		<span class="headline">安全中心</span>
+		<a class="search" href="search.php"></a>
+	</div>
+<section>
+	<div class="safety">
+			<!-- tab切换 -->
+	{if $do eq  'login'}
+		<div class="cutline"></div>
+        	 	<div class="tab-content code-area">
+                    {if $f eq 1}
+                    <p><font class="red">资料修成功！</font></p>
+                    {elseif $f eq 3}
+                    <p><font class="red">密码不正确！请确认密码为6位数以上</font></p>
+                    {elseif $f eq 4}
+                    <p><font class="red">原密码不正确！请输入正确的原密码</font></p>
+                    {elseif $f eq 5}
+                    <p><font class="red">登录密码不能少于 6 个字符。</font></p>
+                    {elseif $f eq 6}
+                    <p><font class="red">两次输入的密码不一致，请重新输入！</font></p>
+                    {/if}
+        		</div>
+ 
+        	 	<div class="tab-content code-area">
+                <form name="formPassword" id="formPassword" action="user.php?act=act_edit_password" method="post" onSubmit="javascript:return check_pass(formPassword);" >
+        			<p>原登录密码</p>
+        			<input class="pass" type="password" name="old_password" id="old_password"/>
+        			<p>新登录密码</p>
+        			<input class="pass" type="password" name="new_password" id="new_password" />
+        			<p>再次输入新密码</p>
+        			<input class="pass" type="password" name="confirm_password" id="confirm_password"/>
+        			<div class="align"><input name="submit" type="submit" class="sub_btn" id="btn"  value="修改密码" /></div>
+                </form>
+        		</div>
+
+
+
+{/if}
+
+		<!-- 登录密码设置页面独立内容 -->
+
+		<!-- 支付密码修改 -->
+{if $do eq 'zhifu'}
+		<div class="tab-content pay-index " style="width:80%">
+		<form onSubmit="javascript:return check(formUser);" action="user.php?act=reset_pay_pwd" method="post" name="formUser">
+		<ul >
+            <li style="text-align: center;">
+        	<p>手机号</p>
+        	<input class="phone" type="text" name="phone" id="phone" value="{$phone}" readonly/>
+            </li>
+            <p></p>
+
+            {if $status eq 1}
+
+       		<div class="align">手机号未验证，不能重置</div>
+            {else}
+            <div class="align"><input name="submit" type="submit" class="sub_btn" id="btn"  value="重置支付密码" /></div>
+           {/if}
+       	</ul>
+       </form>
+		</div>
+
+{/if}
+{if $do eq 'pay_change'}
+
+        <div class="tab-content code-area">
+            <form name="formPassword" id="formPassword" action="user.php?act=change_pay_pwd" method="post" onSubmit="javascript:return check_pay(formPassword);" >
+                <p>原支付密码</p>
+                <input class="pass" type="password" name="old_password" id="old_password"/>
+                <p>新支付密码</p>
+                <input class="pass" type="password" name="new_password" id="new_password" />
+                <p>再次输入新支付密码</p>
+                <input class="pass" type="password" name="confirm_password" id="confirm_password"/>
+                <div class="align"><input name="submit" type="submit" class="sub_btn" id="btn"  value="修改支付密码" /></div>
+            </form>
+        </div>
+
+
+
+{/if}
+ {if $do eq "telvali"}
+        <div class="tab-content code-area">
+            <ul >
+                <li >
+                    <p>手机号</p>
+                    <input class="phone" type="text" style="width:200px" name="phone" id="phone" value="{$phone}" readonly/>
+                    <input  class="telvail" id="telvail" type="hidden" value="telvail">
+              {if $status eq 1}
+                    <p>验证码</p>
+                    <input type="text" id="smscode" style="width:100px" ><span></><button id="get_code" >获取验证码</button></span>
+
+                    <p></p>
+                    <div class="align"><input name="submit" type="submit" class="sub_btn" id="btn"  value="验证" onclick="check_code()" /></div>
+                {else}
+                  <div class="align">手机号已经验证</div>
+                {/if}
+
+            </ul>
+
+       </div>
+ {/if}
+	<script type="text/javascript">
+
+	  function submit(obj){
+    		obj.submit();
+    	}
+
+
+
+
+        	function check_pass(theForm){
+            var reg=new RegExp("^[0-9]*$");
+          
+        	if(theForm.old_password.value == ""){
+            			alert("请输入旧密码");theForm.old_password.focus();return false;
+            		}
+            if(theForm.new_password.value == ""){
+                        			alert("请输入新密码");theForm.new_password.focus();return false;
+                        		}
+                if(theForm.new_password.value <6){
+                         alert("密码不能小于6位");theForm.new_password.focus();return false;
+                                        		}
+
+
+             if(theForm.confirm_password.value == ""){
+                             alert("请重复新密码");theForm.confirm_password.focus();return false;
+                                    		}
+
+            if(theForm.new_password.value != theForm.confirm_password.value){
+
+                          alert("两次密码不一致");theForm.confirm_password.focus();return false;
+                                        }
+
+
+        		theform.submit();
+        	}
+
+
+	  function check_pay(theForm){
+
+
+        var reg=new RegExp("^[0-9]*$");
+        var newpaypassword=document.getElementById("newpaypassword");
+        var confirm_newpaypassword=document.getElementById("confirm_newpaypassword");
+
+
+        if(newpaypassword.value == ""){
+            			alert("请输入新的支付密码");newpaypassword.focus();return false;
+            		}
+         if(confirm_newpaypassword.value == ""){
+                     			alert("请重复新的支付密码");confirm_newpaypassword.focus();return false;
+                     		}
+        if(newpaypassword.value!=confirm_newpaypassword.value){
+
+        	alert("两次支付密码不一致");confirm_newpaypassword.focus();return false;
+        }
+
+
+
+
+
+        if(!reg.test(newpaypassword.value)){
+                			alert("支付密码格式不正确");newpaypassword.focus();return false;
+               }
+          if(newpaypassword.value.length!=6){
+
+
+             alert("支付密码格式不正确");newpaypassword.focus();return false;
+             }
+
+
+
+
+
+
+    		theform.submit();
+    	}
+    </script>
+    
+  </div>
+
+</section>
+	<script type="text/javascript">
+<!--
+/*
+$(function(){
+		var $label1 = $('.login');
+		var $label2 = $('.pay');
+
+		//var $tab1_code = $('.code-area');
+	//	var $tab2_pay = $('.pay-index');
+		$label1.click(function(){
+			$(this).addClass("on");
+			//$tab1_code.removeClass('hide');
+		//	$tab2_pay.addClass('hide');
+			$label2.removeClass('on');
+		});
+		$label2.click(function(){
+			$(this).addClass("on");
+			//$tab1_code.addClass('hide');
+			//$tab2_pay.removeClass('hide');
+			$label1.removeClass('on');
+		});
+});
+*/
+ </script>
+ 
+<script type="text/javascript">
+
+var wait=60;
+function time() {
+
+    o=document.getElementById("get_code");
+    if (wait == 0) {
+    o.removeAttribute("disabled");
+    o.innerText="获取验证码";
+    wait = 90;
+    } else {
+    o.setAttribute("disabled", true);
+    o.innerText="重新发送(" + wait + ")";
+    wait--;
+    // console.log(wait);
+    setTimeout(function() {
+    time()
+    },
+    1000)
+    }
+    }
+
+function check_code() {
+    var tel = document.getElementById("phone").value;
+    var code = document.getElementById("smscode").value;
+
+    Ajax.call('user.php?act=checksms&type=REG', 'tel=' + tel + '&code=' + code, check_callback, 'GET', JSON);
+
+}
+
+function check_callback(result) {
+
+    if (result == 'ok') {
+        alert("验证成功");
+
+        history.back();
+    } else {
+
+        alert("验证失败");
+
+    }
+
+
+}
+
+
+ $(document).ready(function(){
+        $("#get_code").click(function(){
+
+           var tel=$("#phone").val();
+           var telvail=$("#telvail").val();
+                  //  alert(telv)
+           console.log(telvail);
+            if(tel==null){
+                alert("手机号为空");
+
+            }else{
+
+                 $.ajax({
+                            type: "GET",
+                            url: "user.php?act=getsms&type=REG",
+                            data: {tel:tel,vail:telvail},
+                            success:function(msg){
+                                if(msg=='ok'){
+
+
+                                    time();
+                                    $("#get_sms").unbind("click");
+
+                                }else{
+
+                                    alert("验证码发送失败");
+
+                                }
+
+                            }
+
+                            })
+
+
+
+            }
+
+
+
+
+
+
+
+        }
+
+        )
+
+
+
+ });
+
+
+
+</script>
+
+
+
+{include file='foot.dwt'}
+<script type="text/javascript">
+		var global_loading=document.getElementById("global_loading");
+		global_loading.parentNode.removeChild(global_loading);
+</script>
+</body>
+</html>

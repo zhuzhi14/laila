@@ -1,0 +1,308 @@
+[ 2016-10-28T17:05:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006001s ]
+
+[ 2016-10-28T17:06:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006001s ]
+
+[ 2016-10-28T17:07:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:08:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006000s ]
+
+[ 2016-10-28T17:09:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006000s ]
+
+[ 2016-10-28T17:10:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:11:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:12:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004001s ]
+
+[ 2016-10-28T17:13:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.007000s ]
+
+[ 2016-10-28T17:14:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:15:22+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006001s ]
+
+[ 2016-10-28T17:16:23+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:17:23+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:18:23+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:19:23+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004000s ]
+
+[ 2016-10-28T17:20:24+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004000s ]
+
+[ 2016-10-28T17:21:24+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005001s ]
+
+[ 2016-10-28T17:22:24+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:23:24+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006000s ]
+
+[ 2016-10-28T17:24:26+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:25:25+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.007000s ]
+
+[ 2016-10-28T17:26:26+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:27:26+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004000s ]
+
+[ 2016-10-28T17:28:26+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006000s ]
+
+[ 2016-10-28T17:29:27+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.004000s ]
+
+[ 2016-10-28T17:30:27+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.006000s ]
+
+[ 2016-10-28T17:31:27+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005000s ]
+
+[ 2016-10-28T17:32:28+08:00 ] 127.0.0.1 /testbao/index.php?s=/admin/index/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of SettingModel::fetchAll() should be compatible with that of CommonModel::fetchAll() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of SettingModel::save() should be compatible with that of Model::save() D:\WWW\testbao\Baocms\Lib\Model\SettingModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `bao_setting` [ RunTime:0.005001s ]
+

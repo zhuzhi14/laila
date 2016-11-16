@@ -1,0 +1,177 @@
+<link href="themes/ecmoban_suning/qq/images/qq.css" rel="stylesheet" type="text/css" />
+
+  
+  <?php if ($this->_var['shop_notice']): ?>
+       <div class="box">
+        <div class="box_1" >
+         <div class="notice" >
+           <?php echo $this->_var['shop_notice']; ?>
+         </div>
+        </div>
+       </div>
+       <div class="blank5"></div>
+       
+   <?php endif; ?>
+
+
+
+<script type="text/javascript">
+var process_request = "<?php echo $this->_var['lang']['process_request']; ?>";
+</script>
+<script type="text/javascript">
+//设为首页 www.ecmoban.com
+function SetHome(obj,url){
+    try{
+        obj.style.behavior='url(#default#homepage)';
+       obj.setHomePage(url);
+   }catch(e){
+       if(window.netscape){
+          try{
+              netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+         }catch(e){
+              alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+          }
+       }else{
+        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
+       }
+  }
+}
+ 
+//收藏本站 bbs.ecmoban.com
+function AddFavorite(title, url) {
+  try {
+      window.external.addFavorite(url, title);
+  }
+catch (e) {
+     try {
+       window.sidebar.addPanel(title, url, "");
+    }
+     catch (e) {
+         alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
+     }
+  }
+}
+
+function show_div(obj){
+	if(obj.className == "more-menu")
+	{
+		obj.className = "more-menu hover";
+	}
+	else
+	{
+		obj.className = "more-menu";
+	}
+}	
+</script>
+<?php echo $this->smarty_insert_scripts(array('files'=>'transport.js,utils.js')); ?>
+
+<div class="hd_global_top_bar" id="global_top_bar">
+  <div class="wrap clearfix">
+    <div class="hd_topbar_left clearfix">
+      <div class="hd_unlogin_wrap" id="global_unlogin">
+      
+        <div class="hd_login clearfix" id="ECS_MEMBERZONE"><font color=red>麦啦</font>网手机版 | 收藏<font color=red>麦啦</font>网 </div>
+        
+      </div>
+    </div>
+    <div class="hd_top_manu clearfix">
+      <ul class="clearfix">
+        <li class="hd_my_order"><?php 
+$k = array (
+  'name' => 'member_info',
+);
+echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
+?></li>
+	
+	<li class="hd_menu_tit hd_my_order" id="glHdMyYhd"  > <a class="hd_menu" target="_blank" href="user.php"><s></s>我的麦啦</a>
+         </li>
+        <li class="hd_menu_tit" id="glKeHuDuan" > <a href="flow.php" class="hd_menu"><i class="carts"></i>购物车</a>
+         
+        </li>
+        <?php if ($this->_var['navigator_list']['top']): ?> 
+        <?php $_from = $this->_var['navigator_list']['top']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav');$this->_foreach['nav_top_list'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['nav_top_list']['total'] > 0):
+    foreach ($_from AS $this->_var['nav']):
+        $this->_foreach['nav_top_list']['iteration']++;
+?>
+        <li class="hd_menu_tit"> <a target="_blank" href="<?php echo $this->_var['nav']['url']; ?>" <?php if ($this->_var['nav']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav']['name']; ?></a> </li>
+        <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?> 
+        <?php endif; ?>
+      </ul>
+        </div>
+  </div>
+</div>
+
+<div id="site_header" class="wrap hd_header clearfix">
+  <div class="hd_logo_area fl clearfix" id="logo_areaID"> 
+  
+  <a class="fl" href="./index.php"> <img alt="麦啦网" src="themes/ecmoban_yihaodian/images/logo.gif"> </a>
+  
+  </div>
+  
+  
+  <div class="hd_head_search">
+    <div class="hd_search_form clearfix">
+    
+      <div class="hd_search_wrap clearfix">
+      <script type="text/javascript">
+    
+
+    function checkSearchForm()
+    {
+        if(document.getElementById('keyword').value)
+        {
+            return true;
+        }
+        else
+        {
+           // alert("请输入搜索关键词！");
+            return false;
+        }
+    }
+
+    
+    </script>
+      <form name="searchForm" id="newKeywords" method="get" action="search.php" onsubmit="return checkSearchForm()">
+        <input type="text" value="" onblur="if(this.value == ''){this.value=''}" onfocus="if(this.value == ''){this.value = ''}" maxlength="100" style="color:#333333;" id="keyword" name="keywords" class="hd_input_test">
+        <input  class="hd_search_btn" type="submit" value="搜 索">
+        </form>
+      </div>
+      
+    </div>
+    <p class="hd_hot_search" id="hotKeywordsShow">  
+    <?php if ($this->_var['searchkeywords']): ?>
+  
+   <?php $_from = $this->_var['searchkeywords']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'val');if (count($_from)):
+    foreach ($_from AS $this->_var['val']):
+?>
+   <a href="search.php?keywords=<?php echo urlencode($this->_var['val']); ?>"><?php echo $this->_var['val']; ?></a>
+   <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+   <?php endif; ?>
+    </p>
+  </div>
+  <div id="hdPrismWrap" class="hd_prism_wrap">
+     
+    
+  </div>
+  
+</div>
+
+<div class="menu_box clearfix"> 
+<div class="block"> 
+<div class="menu">
+  <a href="index.php"<?php if ($this->_var['navigator_list']['config']['index'] == 1): ?> class="cur"<?php endif; ?>><?php echo $this->_var['lang']['home']; ?></a>
+  <?php $_from = $this->_var['navigator_list']['middle']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav');$this->_foreach['nav_middle_list'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['nav_middle_list']['total'] > 0):
+    foreach ($_from AS $this->_var['nav']):
+        $this->_foreach['nav_middle_list']['iteration']++;
+?>
+  <a href="<?php echo $this->_var['nav']['url']; ?>" <?php if ($this->_var['nav']['opennew'] == 1): ?>target="_blank" <?php endif; ?> <?php if ($this->_var['nav']['active'] == 1): ?> class="cur"<?php endif; ?>><?php echo $this->_var['nav']['name']; ?></a>
+ 
+ <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+</div> 
+</div>
+
+</div>
+
+

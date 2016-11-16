@@ -1,0 +1,116 @@
+<include  file='public:header'/>
+<script src="__PUBLIC__/js/my97/WdatePicker.js"></script>
+<div class="sjgl_lead">
+    <ul>
+        <li><a href="#">商家管理</a> > <a href="">商城</a> > <a>修改优惠券</a></li>
+    </ul>
+</div>
+<div class="tuan_content">
+
+    <div class="tabnr_change  show">
+    	<form method="post"  action="<{:U('coupon/edit',array('coupon_id'=>$detail['coupon_id']))}>"  target="baocms_frm">
+        <js file='__PUBLIC__/js/uploadify/jquery.uploadify.min.js'/>
+        <link rel="stylesheet" href="__PUBLIC__/js/uploadify/uploadify.css">
+    	<table class="tuanfabu_table" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="120"><p class="tuanfabu_t">关键字：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[keyword]" value="<{$detail.keyword|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            
+            <tr>
+                <td width="120"><p class="tuanfabu_t">标题：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[title]" value="<{$detail.title|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">封面简介：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[intro]" value="<{$detail.intro|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+
+            <tr>
+                <td width="120"><p class="tuanfabu_t">发布时间：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="data" name="data[stime]" value="<{$detail.stime|default=''}>" onfocus="WdatePicker();" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">结束时间：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[ltime]" value="<{$detail.ltime|default=''}>" onfocus="WdatePicker();" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">优惠金额：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[end_tips]" value="<{$detail.end_tips|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">使用说明：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[use_tips]" value="<{$detail.use_tips|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+           <tr>
+                <td width="120"><p class="tuanfabu_t">优惠券数量：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[num]" value="<{$detail.num|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">每人最多允许数：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[max_count]" value="<{$detail.max_count|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">已领取数：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[down_count]" value="<{$detail.down_count|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">已使用：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[use_count]" value="<{$detail.use_count|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+            <tr>
+                <td width="120"><p class="tuanfabu_t">浏览量：</p></td>
+                <td><div class="tuanfabu_nr">
+                <input type="text" name="data[views]" value="<{$detail.views|default=''}>" class="tuanfabu_int tuanfabu_intw2" />
+                </div></td>
+            </tr>
+
+            <tr>
+                <td width="120"><p class="tuanfabu_t">粉丝状态</p></td>
+                <td>
+                    <div class="tuanfabu_nr">
+                        <label><input type="radio" <?php if($detail.follower_condtion == 1) echo 'checked="checked"';?>  name="data[follower_condtion]" id="data[is_bao]" value="1"/>关注</label>
+                        <label><input type="radio" <?php if(!$detail.follower_condtion) echo 'checked="checked"';?>  name="data[follower_condtion]" id="data[is_bao]" value="0"/>不关注</label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="120"><p class="tuanfabu_t">粉丝状态</p></td>
+                <td>
+                    <div class="tuanfabu_nr">
+                        <label><input type="radio" <?php if($detail.member_condtion == 1) echo 'checked="checked"';?>  name="data[member_condtion]" id="data[is_bao]" value="1"/>会员</label>
+                        <label><input type="radio" <?php if(!$detail.member_condtion) echo 'checked="checked"';?>  name="data[member_condtion]" id="data[is_bao]" value="0"/>不限</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="tuanfabu_an">
+        <input type="submit" class="radius3 sjgl_an tuan_topbt" value="确认修改" />
+        </div>
+        </form>
+    </div> 
+</div>
+<include  file='public:footer'/>

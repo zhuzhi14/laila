@@ -1,0 +1,122 @@
+<?php // content="text/plain; charset=utf-8"
+define('IN_ECS', true);
+
+require(dirname(__FILE__) . '/includes/init.php');
+require_once ('./jpgraph/src/jpgraph.php');
+require_once ('./jpgraph/src/jpgraph_line.php');
+require_once(ROOT_PATH . 'includes/lib_tdwsys.php');
+
+$ret = gc_sharesdata() ;
+
+print_r("begin") ;
+
+if (ret == null) {
+    print_r("ret is null") ;
+} else {
+    print_r($ret) ;
+    if ($ret['resp_code'] === 0) {
+        $zong1 = explode(',',$ret['zong1']) ;
+        $zongs2 = explode(',',$ret['zong2']) ;
+        $zong3 = explode(',',$ret['zong3']) ;
+        $zongsh = explode(',',$ret['zongh']) ;
+        $mon1 = explode(',',$ret['mon1']) ;
+        $mon3 = explode(',',$ret['mon3']) ;
+        $week1 = explode(',',$ret['week1']) ;
+        $week3 = explode(',',$ret['week3']) ;
+        $weeksh = explode(',',$ret['weekh']) ;
+        
+        $zong2 = array() ;
+        $mon2 = array()  ;
+        $week2 = array() ;
+        $num = 0 ;
+        foreach ($zongs2 as $url){
+            if ($url == 0) $url = null;
+            $zong2[] = $url ;
+            if ($num > 59) $mon2[] = $url  ;
+            if ($num > 82) $week2[] = $url ;
+            $num = $num + 1 ;
+        }
+        
+        $zongh = array() ;
+        $monh = array()  ;
+        $weewh = array() ;
+        $num = 0 ;
+        foreach ($zongsh as $url){
+            if ($num % 5 === 0 || $num == 0) {
+                print_r("=") ;
+                $zongh[] = $url ;
+            } else {
+                print_r("+") ;
+                $zongh[] = "." ;
+            }
+            print_r($num." ") ;
+            if ($num > 59) {
+                if ($num % 2 == 0 || $num == 0)
+                    $monh[] = $url  ;
+                else
+                    $monh[] = "."  ;
+            }
+            if ($num > 82) $weekh[] = $url ;
+            $num = $num + 1 ;
+        }
+
+        create_stock_img(1,"images/stocks/3month.png", $zong1, $zong2, $zong3, $zongh) ;
+        create_stock_img(1,"images/stocks/month.png", $mon1, $mon2, $mon3, $monh) ;
+        create_stock_img(1,"images/stocks/week.png", $week1, $week2, $week3, $weekh) ;
+        create_stock_img(2,"mobile/images/stocks/3month.png", $zong1, $zong2, $zong3, $zongh) ;
+        create_stock_img(3,"mobile/images/stocks/month.png", $mon1, $mon2, $mon3, $monh) ;
+        create_stock_img(4,"mobile/images/stocks/week.png", $week1, $week2, $week3, $weekh) ;
+    } else 
+        print_r("error") ;
+}
+
+function create_stock_img($type,$imgname, $datay1, $datay2, $datay3, $strh)
+{    
+    // Setup the graph
+    if ($type == 1)
+        $graph = new Graph(500,400);
+    else 
+        $graph = new Graph(350,280);
+        
+    $graph->SetScale("textlin");
+    
+    $theme_class=new UniversalTheme;
+    
+    $graph->SetTheme($theme_class);
+    $graph->img->SetAntiAliasing(false);
+//    $graph->title->SetFont(FF_SIMSUN);
+//    $graph->title->Set("股票图");
+    $graph->SetBox(false);
+    
+    $graph->img->SetAntiAliasing();
+    
+    $graph->yaxis->HideZeroLabel();
+    $graph->yaxis->HideLine(false);
+    $graph->yaxis->HideTicks(false,false);
+    
+    $graph->xgrid->Show();
+    $graph->xgrid->SetLineStyle("solid");
+    $graph->xaxis->SetFont(FF_SIMSUN);
+    $graph->xaxis->SetTickLabels($strh);
+    $graph->xgrid->SetColor('#E3E3E3');
+    
+    // Create the first line
+    $p1 = new LinePlot($datay1);
+    $p1->value->SetFont(FF_SIMSUN);    
+    $graph->Add($p1);
+    $p1->SetColor("#FF1493");
+    //$p1->SetLegend('Line 1');
+    
+    $p2 = new LinePlot($datay2) ;
+    $graph->Add($p2);
+    $p3 = new LinePlot($datay3) ;
+    $graph->Add($p3);
+   
+    
+    $graph->legend->SetFrameWeight(2);
+    
+    // Output line
+    $graph->Stroke($imgname);
+}
+?>
+

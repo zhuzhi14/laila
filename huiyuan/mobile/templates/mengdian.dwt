@@ -1,0 +1,128 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png"/>
+    <title>会员中心</title>
+    <link rel='stylesheet' type='text/css' href='css/user.css' />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/head.css" rel="stylesheet" type="text/css" />
+    <link href="css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.lazyload.js" type="text/javascript"></script>
+    <script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+    <script src="js/jquery.touchScroll.js" type="text/javascript"></script>
+    <script>
+        var util = (function(){
+            var u = navigator.userAgent.toLowerCase();
+            return {
+                isIphone : function(){return (RegExp("iphone").test(u) || RegExp("ipod touch").test(u))},
+                isIpad : function(){return RegExp("ipad").test(u)},
+                isAndroid : function(){return (RegExp("android").test(u) || RegExp("android 2").test(u))},
+                isMB : function(){return (util.isIphone() || util.isIpad() || util.isAndroid())}
+            };
+        })();
+        window.util = util;
+        (function(){
+            if( !util.isMB() ){
+                window.location.href = '../index.php';
+            }
+        })();
+    </script>
+    <script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+    <style>
+        .mengdian{margin-bottom:18px;}
+        .mengdian ul{border:1px solid #c8c8c8;border-radius:5px;background-color:#fff;height: auto}
+        .mengdian li{height:auto;line-height: 40px;margin: 10px}
+        .mengdian li a{display:block;margin:0 20px;border-top:1px dotted #9d9d9d;}
+        .mengdian li a.first{border-top:none;}
+        .mengdian li a.link{border-top:none;
+
+
+
+    </style>
+</head>
+<body>
+<div class="header"> <span class="headline">来啦门店</span>  </div>
+<section style="width:100%;margin:45px auto 0;overflow:hidden;">
+    {if $act  eq  'default'}
+    <div class="user">
+
+        <div class="mengdian">
+
+            <ul >
+                {foreach  from=$buslist  item=bus_list }
+                 <a  href="lailamengdian.php?act=getdian&poi_id={$bus_list.base_info.poi_id}"><li >
+                    <!-- <img src="{$bus_list.base_info.photo_list.0.photo_url}" -->
+                     <span>{$bus_list.base_info.business_name}
+                     地址:{$bus_list.base_info.address}</span>
+
+                 </li></a>
+
+
+                {/foreach}
+            </ul>
+        </div>
+
+    </div>
+    {/if}
+    {if  $act eq  getdian}
+      <div>
+       <h2 style="text-align:center ;font-size:20px;height: 100px;margin-top:15px">{$businfo.business_name}</h2>
+          <div class="mengdian">
+
+              <ul >
+
+                 <li>
+
+                     <a href="http://apis.map.qq.com/tools/routeplan/eword={$businfo.address}&epointx={$businfo.longitude}&epointy={$businfo.latitude}?referer=myapp&key=K5ABZ-PROCF-OQHJD-N6PTL-TXGST-XIBNN" ><span>地址:{$businfo.address}</span><button style="float:right;text-align: center;width: 60px;margin-top: 10px">导航</button></a>
+
+                  </li>
+                  <li>
+                  <a >电话:{$businfo.telephone}</a>
+
+              </li>
+
+                  <li>
+                     <a> 营业时间:{$businfo.open_time}</a>
+
+                  </li>
+                  <li>
+                      <a>图集
+                         {foreach from=$businfo.photo_list item=photo key=k}
+                          <img  style="width:22%;height:auto" src="{$photo.photo_url} ">
+
+
+
+                        {/foreach}
+
+                      </a>
+
+                  </li>
+
+                  <li>
+                  <a>描述:{$businfo.introduction}</a>
+
+              </li>
+
+
+
+
+              </ul>
+          </div>
+
+
+      </div>
+    {/if}
+</section>
+<script type="text/javascript">
+    var global_loading=document.getElementById("global_loading");
+    global_loading.parentNode.removeChild(global_loading);
+</script>
+</body>
+</html>

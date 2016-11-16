@@ -1,0 +1,406 @@
+<<<<<<< .mine
+B=23584B留着Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=23584B留着Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bbegin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bbegin!!B=23584B留着Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=0BBbegin!!B=0BBset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=张三|
+begin:update_user_info!23586 user_name张三!! user_name=张三user_rank1begin!!B=23586B张三Buser_id=23586 gold_amt=0 balance=0user_name=张三|begin!!B=23586B张三Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=23584B留着Buser_id=23584 gold_amt=0 balance=0user_name=留着|begin!!B=23584B留着Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=18752835050|
+begin:update_user_info!23586 user_name!! user_name=张三user_rank1begin!!B=23586B张三Buser_id=23586 gold_amt=0 balance=0user_name=张三|begin!!B=23586B张三Buser_id=23586 gold_amt=0 balance=0user_name=张三|begin!!B=23586B张三Bset_cookie=留着|
+begin:update_user_info!23584 user_name留着!! user_name=留着user_rank1begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bbegin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bbegin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bbegin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Bbegin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|user_id=23571 gold_amt= balance=user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name!! user_name=驻智利user_rank1begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|=======
+begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|5\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=5begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|\r\nrecode_count=5\r\nrecode_count=5begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|\r\nrecode_count=5begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|\r\nrecode_count=5begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=5begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|\r\nrecode_count=5begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4977623.5user_name=郭建敏|\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=5\r\nrecode_count=6begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4978763.5user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏B\r\nrecode_count=8\r\nrecode_count=9begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4971263.5user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=9begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4971263.5user_name=郭建敏|\r\nrecode_count=10\r\nrecode_count=10\r\nrecode_count=11\r\nrecode_count=10\r\nrecode_count=9\r\nrecode_count=9begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4971263.5user_name=郭建敏|\r\nrecode_count=8\r\nrecode_count=7\r\nrecode_count=6\r\nrecode_count=5\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4971263.5user_name=郭建敏|\r\nrecode_count=5begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|\r\nrecode_count=4\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|begin!!B=55B郭建敏Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bset_cookie=|
+<<<<<<< .mine
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BB>>>>>>> .r5022
+\r\nrecode_count=546begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Buser_id=23571 gold_amt=0 balance=1.18user_name=驻智利|begin!!B=23571B驻智利Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BB=======
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏B\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=259000 balance=4972432user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|\r\nrecode_count=4begin!!B=0BBset_cookie=13305158468|
+<<<<<<< .mine
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏B\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏B\r\nrecode_count=4>>>>>>> .r5037
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BB=======
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=258242 balance=4972427user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏B\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!23632 user_nameguojm!! user_name=guojmuser_rank1begin!!B=23632BguojmBuser_id=23632 gold_amt=0 balance=0user_name=guojm|begin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|\r\nrecode_count=4\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=测试测试|
+begin:update_user_info!23634 user_name测试测试!! user_name=测试测试user_rank1begin!!B=23634B测试测试Bbegin!!B=23634B测试测试Bset_cookie=测试测试|
+begin:update_user_info!23635 user_name测试测试!! user_name=测试测试user_rank1begin!!B=23635B测试测试Buser_id=23635 gold_amt=0 balance=0user_name=测试测试|begin!!B=23635B测试测试Bbegin!!B=23635B测试测试Bbegin!!B=23635B测试测试Bbegin!!B=23635B测试测试Buser_id=23635 gold_amt=0 balance=0user_name=测试测试|begin!!B=23635B测试测试Buser_id=23635 gold_amt=0 balance=0user_name=测试测试|begin!!B=23635B测试测试Buser_id=23635 gold_amt=0 balance=0user_name=测试测试|begin!!B=23635B测试测试Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=cscs|
+<<<<<<< .mine
+begin:update_user_info!23636 user_namecscs!! user_name=cscsuser_rank1begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|\r\nrecode_count=0\r\nrecode_count=0begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBbegin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|\r\nrecode_count=0\r\nrecode_count=0begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsB>>>>>>> .r5055
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试!! user_name=测试user_rank1begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1001.39user_name=测试|\r\nrecode_count=549begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试!! user_name=测试user_rank1begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试!! user_name=测试user_rank1begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试!! user_name=测试user_rank1begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Bbegin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=23571B测试Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试|begin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1begin!!B=23571B测试12123Buser_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|begin!!B=23571B测试12123Bbegin!!B=23571B测试12123Bbegin!!B=23571B测试12123B<begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|<begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!safe_center><begin!!safe_center><begin!!profile><begin!!safe_center><begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!act_edit_password><begin!!safe_center><begin!!safe_center><begin!!safe_center><begin!!safe_center><begin!!act_edit_password><begin!!act_edit_password><begin!!profile><begin!!do_login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|<begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!><begin!!register><begin!!profile><begin!!do_login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试12123!! user_name=测试12123user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|<begin!!profile><begin!!act_edit_profile><begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|<begin!!profile><begin!!profile><begin!!profile><begin!!user_center>user_id=23571 gold_amt=0 balance=1023.39user_name=测试12123|<begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!forgetpwd><begin!!getsms><begin!!forgetpwd><begin!!getsms><begin!!act_forget_password><begin!!act_forget_password><begin!!forgetpwd><begin!!getsms><begin!!act_forget_password><begin!!forgetpwd><begin!!getsms><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!forgetpwd><begin!!getsms><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!forgetpwd><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!act_forget_password><begin!!getsms><begin!!act_forget_password><begin!!forgetpwd><begin!!getsms><begin!!getsms><begin!!act_forget_password><begin!!do_login><begin!!do_login><begin!!do_login><begin!!forgetpwd><begin!!getsms><begin!!act_forget_password><begin!!><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试121232!! user_name=测试121232user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试121232|<begin!!profile><begin!!safe_center><begin!!act_edit_password><begin!!safe_center><begin!!act_edit_password><begin!!safe_center><begin!!safe_center><begin!!act_edit_password><begin!!safe_center><begin!!safe_center><begin!!act_edit_password><begin!!safe_center><begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!><begin!!user_center><begin!!do_login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试121232!! user_name=测试121232user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试121232|<begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试121232!! user_name=测试121232user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试121232|<begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23571 user_name测试121232!! user_name=测试121232user_rank1<begin!!>user_id=23571 gold_amt=0 balance=1023.39user_name=测试121232|<begin!!safe_center><begin!!safe_center><begin!!act_edit_password>set_cookie=|
+<begin!!>=======
+begin:update_user_info!23636 user_namecscs!! user_name=cscsuser_rank1begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|\r\nrecode_count=0\r\nrecode_count=0begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBbegin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|\r\nrecode_count=0\r\nrecode_count=0begin!!B=23636BcscsBuser_id=23636 gold_amt=0 balance=0user_name=cscs|begin!!B=23636BcscsBbegin!!B=0BBbegin!!B=0BBset_cookie=10001000111|
+begin:update_user_info!48 user_name麦啦总管!! user_name=麦啦总管user_rank1begin!!B=48B麦啦总管Buser_id=48 gold_amt=11000 balance=3000user_name=麦啦总管|begin!!B=48B麦啦总管Bbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=22222222221|
+begin:update_user_info!23592 user_name于垚!! user_name=于垚user_rank1begin!!B=23592B于垚Buser_id=23592 gold_amt=0 balance=0user_name=于垚|begin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Buser_id=23592 gold_amt=0 balance=500000user_name=于垚|begin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Bbegin!!B=23592B于垚Buser_id=23592 gold_amt=0 balance=450000user_name=于垚|begin!!B=23592B于垚Bbegin!!B=23592B于垚Buser_id=23592 gold_amt=0 balance=450000user_name=于垚|begin!!B=23592B于垚Bbegin!!B=23592B于垚Buser_id=23592 gold_amt=0 balance=450000user_name=于垚|begin!!B=23592B于垚Bset_cookie=|
+begin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBbegin!!B=0BBset_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏B\r\nrecode_count=4begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏Bbegin!!B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|begin!!B=55B郭建敏B<begin!!>B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!><begin!!user_center><begin!!user_center>B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register>B=55B郭建敏B<begin!!user_center>B=55B郭建敏Buser_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!address_list><begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!profile><begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register><(in_register)action=in_register|13305158468><begin!!logout>set_cookie=|
+<begin!!user_center><begin!!register><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!logout>set_cookie=|
+<begin!!user_center><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!act_in_register><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!safe_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!profile><begin!!safe_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!profile><begin!!profile><begin!!address_list><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!profile><begin!!profile><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!profile><begin!!in_register><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!safe_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!safe_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!upbaodan><begin!!in_register>
+<(in_register)action=in_register|13305158468>\r\nrecode_count=4<begin!!upvip><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!upvip><begin!!afftree><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!act_in_register><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!afftree><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!logout>set_cookie=|
+<begin!!user_center><begin!!do_login>set_cookie=13305158467|
+begin:update_user_info!23640 user_name测试!! user_name=测试user_rank1<begin!!>user_id=23640 gold_amt=0 balance=0user_name=测试|<begin!!afftree><begin!!profile><begin!!address_list><begin!!address_list><begin!!logout>set_cookie=|
+<begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!address_list><begin!!add_address><begin!!user_center>user_id=55 gold_amt=258032 balance=4972422user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_info><begin!!order_info><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!profile><begin!!in_register><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!address_list>\r\nrecode_count=4<begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!in_register>
+<(in_register)action=in_register|13305158468><begin!!profile><begin!!profile><begin!!user_center><begin!!register><begin!!user_center><begin!!register><begin!!register><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!in_register>
+<(in_register)action=in_register|13305158468>\r\nrecode_count=4<begin!!address_list><begin!!safe_center>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=257606 balance=4972417user_name=郭建敏|<begin!!profile><begin!!profile><begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=252520 balance=4972396user_name=郭建敏|<begin!!>user_id=55 gold_amt=252520 balance=4972396user_name=郭建敏|<begin!!>user_id=55 gold_amt=252520 balance=4972396user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=252520 balance=4972396user_name=郭建敏|<begin!!user_center>user_id=55 gold_amt=252520 balance=4972396user_name=郭建敏|<begin!!user_center><begin!!register><begin!!getsms><begin!!register><begin!!register><begin!!act_register>set_cookie=guojm|
+begin:update_user_info!23644 user_nameguojm!! user_name=guojmuser_rank1<begin!!default>user_id=23644 gold_amt=0 balance=0user_name=guojm|<begin!!logout>set_cookie=|
+<begin!!user_center><begin!!register><begin!!register><begin!!register><begin!!getsms><begin!!act_register>set_cookie=guojm|
+begin:update_user_info!23645 user_nameguojm!! user_name=guojmuser_rank1<begin!!default>user_id=23645 gold_amt=0 balance=0user_name=guojm|<begin!!logout>set_cookie=|
+<begin!!user_center><begin!!register><begin!!getsms><begin!!act_register>set_cookie=guojm|
+begin:update_user_info!23646 user_nameguojm!! user_name=guojmuser_rank1<begin!!default>user_id=23646 gold_amt=0 balance=0user_name=guojm|<begin!!logout>set_cookie=|
+<begin!!user_center><begin!!register><begin!!getsms><begin!!act_register><begin!!register><begin!!user_center><begin!!register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!register><begin!!act_register><begin!!register><begin!!register><begin!!act_register><begin!!register><begin!!register><begin!!act_register><begin!!register><begin!!user_center><begin!!register><begin!!act_register><begin!!act_register><begin!!register><begin!!act_register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!act_register><begin!!register><begin!!user_center><begin!!register><begin!!act_register><begin!!register><begin!!register><begin!!act_register><begin!!do_login><begin!!do_login><begin!!do_login><begin!!do_login><begin!!do_login>set_cookie=18951612035|
+begin:update_user_info!57 user_name陈静!! user_name=陈静user_rank4<begin!!>user_id=57 gold_amt=360000 balance=6250user_name=陈静|<begin!!in_register>
+<(in_register)action=in_register|18951612035><begin!!act_in_register><begin!!act_in_register><begin!!act_in_register><begin!!in_register>
+<(in_register)action=in_register|18951612035>>>>>>>> .r5110
+<begin!!><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23913 user_name朱志亮!! user_name=朱志亮user_rank4<begin!!>user_id=23913 gold_amt=125000 balance=7200210.5user_name=朱志亮|<begin!!user_center><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23913 user_name朱志亮!! user_name=朱志亮user_rank4<begin!!>user_id=23913 gold_amt=19755000 balance=0user_name=朱志亮|<begin!!upbaodan><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!stock_trade><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23913 user_name朱志亮!! user_name=朱志亮user_rank4<begin!!>user_id=23913 gold_amt=19985000 balance=0user_name=朱志亮|<begin!!stock_trade><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!profile><begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!getcity><begin!!getzhihang><begin!!true_info><begin!!true_info><begin!!true_info><begin!!getzhihang><begin!!getcity><begin!!getcity><begin!!getzhihang><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!getzhihang>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!safe_center><begin!!getsms><begin!!safe_center><begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!getcity><begin!!true_info><begin!!getcity><begin!!true_info><begin!!getcity><begin!!getcity><begin!!true_info><begin!!getcity><begin!!getcity><begin!!getcity><begin!!getcity><begin!!getcity><begin!!getcity><begin!!true_info><begin!!getcity><begin!!getzhihang><begin!!getzhihang><begin!!getcity><begin!!getzhihang><begin!!true_info><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!upbaodan><begin!!true_info><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!user_center><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=118.02user_name=朱志亮|<begin!!gpos>status=X|<begin!!gpos>status=8|<begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1984228 balance=-490.98user_name=朱志亮|<begin!!true_info><begin!!getcity><begin!!getcity><begin!!user_center>user_id=23572 gold_amt=1984228 balance=-490.98user_name=朱志亮|<begin!!true_info><begin!!getcity><begin!!getcity><begin!!true_info><begin!!getcity><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=4136220 balance=-490.98user_name=朱志亮|<begin!!order_list><begin!!order_info><begin!!user_center><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!user_center>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!act_add_card><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!act_add_card><begin!!true_info><begin!!act_add_card><begin!!true_info><begin!!act_add_card><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!true_info><begin!!user_center>user_id=23572 gold_amt=829676 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|\r\nrecode_count=6<begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!order_list><begin!!user_center>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!user_center><begin!!user_center><begin!!login><begin!!login><begin!!login><begin!!register><begin!!login><begin!!login><begin!!login><begin!!login><begin!!login><begin!!login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!login>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!logout>ucapi/bindwechat?wechat_openid=&wechat_nickname=&systemname=MAILA&user_id=23572set_cookie=|
+<begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!user_center><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!register><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_info><begin!!order_list><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1356520 balance=3216575.02user_name=朱志亮|<begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list><begin!!order_list>\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6<begin!!profile><begin!!address_list><begin!!true_info><begin!!safe_center><begin!!upvip>\r\nrecode_count=6<begin!!upbaodan>\r\nrecode_count=6<begin!!user_center><begin!!user_center><begin!!register><begin!!login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!user_center>user_id=23572 gold_amt=1356217 balance=3216575.02user_name=朱志亮|<begin!!true_info><begin!!safe_center><begin!!gpos>status=1|<begin!!afftree><begin!!upbaodan><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!act_add_order><begin!!act_add_order><begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!afftree><begin!!upbaodan><begin!!upvip><begin!!safe_center><begin!!order_list><begin!!login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!user_center><begin!!do_login>set_cookie=13305158468|
+begin:update_user_info!55 user_name郭建敏!! user_name=郭建敏user_rank4<begin!!>user_id=55 gold_amt=220803.88 balance=5600user_name=郭建敏|\r\nrecode_count=2<begin!!user_center><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=1371217 balance=3201575.02user_name=朱志亮|<begin!!login><begin!!login><begin!!login><begin!!login><begin!!login><begin!!login><begin!!login><begin!!register><begin!!register><begin!!register><begin!!user_center><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!login><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!user_center>user_id=23572 gold_amt=1370718 balance=3201575.02user_name=朱志亮|<begin!!user_center>user_id=23572 gold_amt=1370718 balance=3201575.02user_name=朱志亮|<begin!!true_info><begin!!true_info><begin!!true_info><begin!!safe_center><begin!!safe_center><begin!!safe_center><begin!!safe_center><begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!safe_center><begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!gpos>status=1|<begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!upvip><begin!!gpos>status=1|<begin!!afftree><begin!!afftree><begin!!upbaodan><begin!!upbaodan><begin!!profile><begin!!profile><begin!!address_list><begin!!address_list>\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6\r\nrecode_count=6<begin!!address_list><begin!!order_list><begin!!order_list><begin!!><begin!!><begin!!><begin!!><begin!!><begin!!><begin!!><begin!!do_login>set_cookie=13951414596|
+begin:update_user_info!23572 user_name朱志亮!! user_name=朱志亮user_rank2<begin!!>user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!>user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!ll_center>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|<begin!!goldcard>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|<begin!!ll_center>B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!>
+[]<begin!!>
+[]<begin!!do_login>
+[]set_cookie=13951414596|
+
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!upvip>
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.04user_name=朱志亮|
+[]<begin!!>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!ll_center>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!ll_center>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+[]<begin!!register>
+[]<begin!!forgetpwd>
+[]<begin!!forgetpwd>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!do_login>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+[]set_cookie=13951414596|
+
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!afftree>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!afftree>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!true_info>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+[]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=0 gold_amt= balance=user_name=|
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!do_login>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=0|||
+[]set_cookie=13951414596|
+
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+E:\xampp\htdocs\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+E:\xampp\htdocs\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!true_info>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!true_info>
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\mobile\user.php[48]<begin!!safe_center>
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+E:\xampp\htdocs\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!ll_center>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!logout>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+[]set_cookie=|
+
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!logout>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+[]set_cookie=|
+
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0.03user_name=朱志亮|
+[]\r\nrecode_count=306
+[]\r\nrecode_count=306
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[48]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=0|||
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!do_login>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=0|||
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=1558.15user_name=朱志亮|
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=2458.15user_name=朱志亮|
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=0|||
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!do_login>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=0|||
+[]set_cookie=13951414596|
+
+D:\WWW\huiyuan\includes\lib_main.php[29]begin:update_user_info!23572 user_name朱志亮
+D:\WWW\huiyuan\includes\lib_main.php[48]!! user_name=朱志亮user_rank2
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=670.15user_name=朱志亮|
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\usercenter.php[50]<begin!!llcenter>
+D:\WWW\huiyuan\mobile\usercenter.php[96]B=23572|<font color="#0000FF">麦啦会员</font><font color="#FF6600">-商户</font>|1|
+D:\WWW\huiyuan\includes\lib_clips.php[683]user_id=23572 gold_amt=0 balance=0user_name=朱志亮|
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_pay>
+D:\WWW\huiyuan\mobile\user.php[51]<begin!!do_login>
+D:\WWW\testbao\huiyuan\mobile\usercenter.php[50]<begin!!>
+D:\WWW\testbao\huiyuan\mobile\usercenter.php[96]B=0|||
+D:\WWW\testbao\huiyuan\mobile\user.php[51]<begin!!do_login>

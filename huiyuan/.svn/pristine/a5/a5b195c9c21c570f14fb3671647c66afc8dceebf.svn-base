@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png"/>
+    <title>代理商申请</title>
+    <link rel='stylesheet' type='text/css' href='css/safety.css' />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/head.css" rel="stylesheet" type="text/css" />
+    <link href="css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/dtree.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+    <script src="js/jquery.touchScroll.js" type="text/javascript"></script>
+    <script src="js/dtree.js" type="text/javascript"></script>
+    <script src="js/user.js" type="text/javascript"></script>
+    <script src="js/transport2.js" type="text/javascript"></script>
+    <script src="js/zhifubox.js"></script>
+    <script src="js/zhifubox_gu.js"></script>
+    <script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+    <style>
+        .baodan-area {width:80%;margin:0px auto}
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="pending-order">
+
+        <!-- {if $action eq 'default'} -->
+        <script>
+            function  checkmdrz(){
+                var con=confirm("您即将购买产品，此操作不可撤销");
+                if(con){
+                    document.getElementById("formEdit").submit();
+                }else{
+                    return ;
+                }
+            }
+
+        </script>
+        <div class="header">
+            <a class="back" href="javascript:history.back();"></a>
+            <span class="headline">代理商申请</span>
+            <a class="search" href="search.php"></a>
+        </div>
+        <div class="blank"></div>
+       <div class="area_select">
+
+
+
+
+       <>
+
+
+    <!-- {/if} -->
+    <!--#门店融资结束 end-->
+
+    </div>
+</section>
+
+<script type="text/javascript">
+    var global_loading=document.getElementById("global_loading");
+    global_loading.parentNode.removeChild(global_loading);
+</script>
+</body>
+</html>

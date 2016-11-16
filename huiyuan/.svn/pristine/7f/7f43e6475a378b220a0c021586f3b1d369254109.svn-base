@@ -1,0 +1,200 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{$shop_name}触屏版首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="css/68.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+	<script>
+          var util = (function(){
+              var u = navigator.userAgent.toLowerCase();
+              return {
+                  isIphone : function(){return (RegExp("iphone").test(u) || RegExp("ipod touch").test(u))},
+                  isIpad : function(){return RegExp("ipad").test(u)},
+                  isAndroid : function(){return (RegExp("android").test(u) || RegExp("android 2").test(u))},
+                  isMB : function(){return (util.isIphone() || util.isIpad() || util.isAndroid())}
+              };
+          })();
+          window.util = util;
+          (function(){
+              if( !util.isMB() ){
+                  window.location.href = '../index.php';
+              }
+          })();
+    </script>
+	<script type="text/javascript">
+    jQuery(document).ready(
+    function($){
+		$(".row_list img").lazyload({
+         placeholder : "images/img_bg4.png",
+         effect      : "fadeIn"
+    });
+    });
+    </script>
+    <style>
+        .scrollimg{position:relative; overflow:hidden; margin:0px auto; /* 设置焦点图最大宽度 */}
+        .scrollimg .hd{ position: absolute;
+            bottom: 1em;
+            text-align: center;
+            width: 100%;}
+        .scrollimg .hd li{display: inline-block;
+            width: .8em;
+            height: 1em;
+            margin: 0 .4em;
+            -webkit-border-radius: .8em;
+            -moz-border-radius: .8em;
+            -ms-border-radius: .8em;
+            -o-border-radius: .8em;
+            border-radius: .8em;
+            background: #FFF;
+            filter: alpha(Opacity=60);
+            opacity: .6;
+            box-shadow: 0 0 1px #ccc; text-indent:-100px; overflow:hidden; }
+        .scrollimg .hd li.on{ filter: alpha(Opacity=90);
+            opacity: .9;
+            background: #f8f8f8;
+            box-shadow: 0 0 2px #ccc; }
+        .scrollimg .bd{position:relative; z-index:0;}
+        .scrollimg .bd li{position:relative; text-align:center;}
+        .scrollimg .bd li img{background:url(./images/loading.gif) center center no-repeat;  vertical-align:top; width:100%;height:56%;/* 图片宽度100%，达到自适应效果 */}
+        .scrollimg .bd li a{-webkit-tap-highlight-color:rgba(0,0,0,0);}  /* 去掉链接触摸高亮 */
+        .scrollimg .bd li .tit{display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:url(./images/focusBg.png) repeat-x; color:#fff;  text-align:left;}
+    </style>
+</head>
+<body style="">
+		<header>
+			<div id="header" class="header">
+				<div class="cart">
+					<a href="cart.php">购物车</a>
+				</div>
+				<div class="back">
+					<a href="index.php">{$shop_name}</a>
+				</div>
+			</div>
+		</header>
+        <div id="scrollimg" class="scrollimg">
+            <div class="bd">
+                <ul>
+
+
+                    <li><a href="#"><img src="./images/lunbo/1.jpg" width="100%" /></a></li>
+                    <li><a href="#"><img src="./images/lunbo/2.jpg" width="100%" /></a></li>
+                    <li><a href="#"><img src="./images/lunbo/3.jpg" width="100%" /></a></li>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul></ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            TouchSlide({
+                slideCell:"#scrollimg",
+                titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                mainCell:".bd ul",
+                effect:"leftLoop",
+                autoPage:true,//自动分页
+                autoPlay:true //自动播放
+            });
+        </script>
+		<div id="viewport" class="viewport">
+			<div class="row row_swiper mt20">
+
+			</div><!-- @end div.row_swiper -->
+            <div class="search">
+                <!--页面上方搜索框区域begin-->
+                <script src="js/jquery.delayEvent.js" type="text/javascript"></script>
+                <script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+                <div class="category_search">
+                    <form action="search.php" method="get" name="searchForm" >
+                        <div class="input-word">
+                            <input name="keywords" type="text" id="keyword"  autocomplete="off" placeholder="    " onFocus="{this.placeholder=''}" onBlur="if(this.placeholder=''){this.placeholder='   '}">
+                            <input type="submit" class="btn" value="" >
+
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript">
+                    var searchInput = document.getElementById('seachInput');
+                    searchInput.onfocus = function () {
+                        if (searchInput.value == '商品名称')
+                            searchInput.value = '';
+                    };
+                    searchInput.onblur = function () {
+                        if (searchInput.value == '')
+                            searchInput.value = '商品名称';
+                    }
+                    function chkSearch() {
+                        if (searchInput.value == "商品名称") {
+                            alert('商品名称');
+                            searchInput.onfocus();
+                            return false;
+                        }
+                    }
+                </script>
+			<div class="row row_category">
+				<ul class="h_box">
+					<li><a href="goods_list.php?type=new"><img src="images/68/1.png"></a><p>新品上市</p></li>
+					<li><a href="goods_list.php?type=promote"><img src="images/68/2.png"></a><p>促销活动</p></li>
+					<li><a href="favorites.php"><img src="images/68/3.png"></a><p>我的收藏</p></li>
+					<li><a href="brands.php"><img src="images/68/4.png"></a><p>品牌馆</p></li>
+				</ul>
+				<ul class="h_box">
+					<li><a href="category.php"><img src="images/68/6.png"></a><p>全部分类</p></li>
+					<li><a href="cart.php"><img src="images/68/5.png"></a><p>购物车</p></li>
+					<li><a href="user.php?act=user_center"><img src="images/68/7.png"></a><p>会员中心</p></li>
+					<li><a href="kefu.php"><img src="images/68/8.png"></a><p>联系客服</p></li>
+				</ul>
+			</div>
+            <!-- @end div.row_category -->
+
+			<div class="list">
+
+                <div class="head"><span>推荐商品</span></div>
+                <div class="blank6"></div>
+
+                <div class="list-cell">
+                {foreach from=$best_goods item=goods name=goods}
+                    {if $smarty.foreach.goods.index <= 8}
+
+
+                            <div class="cell">
+							<a href="goods.php?id={$goods.id}">
+								<div class="imgurl">
+									<img src="./../{$goods.original_img}">
+								</div>
+								<div class="info">
+									<div class="product_name">
+                                        <span class="name">{$goods.name}</span><br />
+										<span class="price">{if $goods.promote_price neq ""}{$goods.promote_price}{else}{$goods.shop_price}{/if}</span><br>
+                                        <dd><span class="pull-left"><i class="fa fa-eye"></i>{$goods.click_count}人浏览</span></dd>
+                                        </dl>
+									</div>
+
+								</div>
+							</a>
+						</div>
+
+
+                    {/if}
+                    {/foreach}
+
+
+
+			</div>
+                <div class="more"><a href="category.php?id=1"><span>查看更多{$goods_cat.name|escape:html}&nbsp;&gt;</span></a></div>
+            </div>
+			</div>
+            <!-- @end div.row_list -->
+
+        <div>
+{include file='foot.dwt'}
+</body></html>

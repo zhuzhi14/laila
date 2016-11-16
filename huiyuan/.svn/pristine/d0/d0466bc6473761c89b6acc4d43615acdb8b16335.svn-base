@@ -1,0 +1,728 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png"/>
+    <title>来啦方块</title>
+    <link rel='stylesheet' type='text/css' href='css/user.css' />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/head.css" rel="stylesheet" type="text/css" />
+    <link href="css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.lazyload.js" type="text/javascript"></script>
+    <script src="js/jquery.autocomplete.js" type="text/javascript"></script>
+    <script src="js/jquery.touchScroll.js" type="text/javascript"></script>
+ 	<script src="js/user.js" type="text/javascript"></script>
+    <script src="js/zhifubox.js" type="text/javascript"></script>
+    {insert_scripts files='transport2.js'}
+	<script>
+          var util = (function(){
+              var u = navigator.userAgent.toLowerCase();
+              return {
+                  isIphone : function(){return (RegExp("iphone").test(u) || RegExp("ipod touch").test(u))},
+                  isIpad : function(){return RegExp("ipad").test(u)},
+                  isAndroid : function(){return (RegExp("android").test(u) || RegExp("android 2").test(u))},
+                  isMB : function(){return (util.isIphone() || util.isIpad() || util.isAndroid())}
+              };
+          })();
+          window.util = util;
+          (function(){
+              if( !util.isMB() ){
+                  window.location.href = '../index.php';
+              }
+          })();
+    </script>
+    <script type="text/javascript">
+        document.write('<div id="global_loading" style="width: 100%;height: 100%;position: fixed;top: 0;left: 0;background-color: #eee;z-index:999"><div style="width: 100px;height: 75px;margin:auto;top:50%;position:relative"><span style="display:block;float:left;width:32px;height:32px;background:url(images/spacer.gif);margin-top:-5px;"></span>&nbsp;&nbsp;加载中...</div></div>');
+    </script>
+    <style>
+        .data_red{
+
+            background-image: url("images/ll2.png");
+            background-repeat: no-repeat;
+            font-family: "Consolas", "Menlo", "Courier", monospace;
+
+            font-size: 1.3em;
+
+
+        }
+        .data_blue{
+
+            background-image: url("images/ll3.png");
+            background-repeat: no-repeat;
+            font-family: "Consolas", "Menlo", "Courier", monospace;
+
+            font-size: 1.3em;
+
+        }
+
+        .data_ccc{
+            background-color: #004DC4;
+            font-family: "Consolas", "Menlo", "Courier", monospace;
+            font-size: 1.3em;
+
+
+        }
+
+        .data_fff{
+
+            background-image: url("images/ll4.png");
+            background-repeat: no-repeat;
+            font-family: "Consolas", "Menlo", "Courier", monospace;
+            font-size: 1.3em;
+
+        }
+
+        .info  table  td{
+            height:50px;
+
+        }
+
+        .list ul li{
+              float:left;
+              height:50px;
+              width:24%;
+              text-align: center;
+              line-height: 50px;
+              background-image: url("images/ll2.png");
+             font-family: "Consolas", "Menlo", "Courier", monospace;
+             font-size: 20px;
+             margin-left: 3px;
+            margin-bottom: 3px;
+
+
+
+        }
+
+
+        .llinfo {
+
+           width:100%;
+
+
+        }
+
+
+        #point{
+
+            font-size:18px;position: relative;margin-left: 75%;z-index: 10;margin-top:35%
+        }
+
+        .ll_order{
+
+            position: absolute;
+            margin-left: 10%;
+            margin-top:2px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+       .intro  li {
+           height: 20px;
+           width:120px;
+
+       }
+
+       .ll_li li{
+
+           float: left;
+           width:33.3%;
+
+
+       }
+
+    </style>
+</head>
+<body  style="background-color: #fff5e0" onclick="close_all()">
+
+<!-- {if $action eq 'default'} -->
+<div class="header"> </a> <span class="headline">来啦会员中心</span> </div>
+<section style="width:100%;margin:15px auto 0;overflow:hidden;margin-bottom: 40px">
+  <div class="user">
+    <!--顶部基本信息begin-->
+ <div class="info" >
+     <div class="llinfo">
+         <img src="images/ll1.png" style="width: 100%;height: auto">
+     </div>
+	  <!--<table width="100%" border="1">
+		  <tr style="height:30px;"><td width="50%">用户名：{$smarty.session.user_name}</td>
+		  	<td>级别:{$rank_name}</td>
+		  </tr>
+		  <tr style="height:30px;">
+			  <td>余额：<strong>{$info.surplus}</strong></td>
+              <td></td>
+		  </tr>
+		  <td>积分：<strong>{$info.award_bal}</strong></td>
+		  <td>金币：<strong>{$info.integral}</strong></td>
+	  </table>-->
+      <!-- 排行榜logo -->
+  </div>
+    <!--顶部基本信息end-->
+
+    <!--来啦数据begin-->
+    <div class="info_1" >
+        <div style="margin:0 auto;width: 80%">
+ 		 <td>T积分:<strong>{$llsys.tbal}</strong></td>
+<!--         <td align="right" ><button><a href="ll.php?act=ll_credit">提现</a></button></td> -->
+         <td align="right" ><button><a href="ll.php?act=ll_account">账单</a></button></td>
+        <ul >
+            <li>空位排满后，组长返还T积分出局；</li>
+           <li>本小组同时裂变成为两个新的小组；</li>
+           <li>新小组根据活跃度排序，方块数字为活跃度；</li>
+           <li>活跃度高的订单编号裂变后优先成为组长。</li>
+        </ul>
+       </div>
+	  <!--<table width="100%" border="1">
+		  <tr style="height:30px;"><td width="50%">来啦币LB：<strong>{$llsys.lbal}</strong></td>
+		  	<td>队列金额:<strong>{$llsys.linamt}</strong></td>
+		  </tr>
+		  <tr style="height:30px;">
+			  <td>返回金额：<strong>{$llsys.loutamt}</strong></td>
+              <td></td>
+		  </tr>
+	  </table>-->
+    </div>
+    <!--来啦数据end-->
+    
+    <!--来啦队列表begin-->
+
+      <div class="info" >
+          <div  style="width:100%;margin:0 auto;border-radius: 10px;">
+
+              <ul  class="ll_li" style="width:100%;display: inline-block;overflow: visible;margin:0 auto;font-size: 0.8em">
+                  <li>已返:<strong>{$llsys.loutamt}</strong>&nbsp;T积分</li>
+                  <li>排序:<strong>{$llsys.linamt}</strong>&nbsp;L积分</li>
+              <li>待返:<strong>{$llsys.lbal}</strong>&nbsp;L积分</li>
+              </ul>
+
+          </div>
+    {if $data  neq 1}
+          <div>
+           <div style="width:30%;margin:0 auto;border-radius: 3px;text-align: center;position: absolute;margin-top:0px;left:25%;font-size: 26px">{$areaname}</div>
+          <div  class="intro"  style="width:60px;height:80px;left:60%;margin-top:0px;position: absolute">
+              <ul >
+                  <li><span>您的订单排位</span> <div style="height:18px;width:18px;background-color: #e6002e;float:right;margin-left:-20px"></div> </li>
+                  <li><span>系统自动排位</span> <div style="height:18px;width:18px;background-color:#ff9c00 ;float:right;margin-left:-20px"></div></li>
+                  <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空位</span> <div style="height:18px;width:18px;background-color: #a89776;float:right;margin-left:-20px;"></div></li>
+              <ul>
+          </div>
+          <table width="100%" height="130px" border="1" style="text-align: center;font-size: 20px;table-layout:fixed;color:#fff;">
+           <tr>
+              <td class="{$data[0].color}" >
+                  <div class="ll_order"  style="font-size:22px;margin-left:6%" onclick="get_ll_info({$data[0].order},1) " >组长</div> <div id="msg_{$data[0].order}"></div><div id="point" ></div></td>
+           </tr>
+           <tr>
+              <td class="{$data[1].color}" ><div  class="ll_order" onclick="get_ll_info({$data[1].order},1) ">{$data[1].point} </div> <div id="msg_{$data[1].order}"></div><div id="point" ></div></td>
+              <td  class="{$data[2].color}" "><div  class="ll_order" onclick="get_ll_info({$data[2].order},1) ">{$data[2].point} </div> <div id="msg_{$data[2].order}"></div><div id="point" ></div></td>
+           </tr>
+           <tr>
+                  <td   id="data_{$data[3].order}" class="{$data[3].color}" ><div class="ll_order" onclick="get_ll_info({$data[3].order},1) ">{$data[3].point} </div> <div id="msg_{$data[3].order}"></div><div id="point" ></div></td>
+                  <td  class="{$data[4].color}"><div class="ll_order" onclick="get_ll_info({$data[4].order},1) ">{$data[4].point} </div> <div id="msg_{$data[4].order}"></div><div id="point" ></div></td>
+                  <td class="{$data[5].color}"><div class="ll_order" onclick="get_ll_info({$data[5].order},2) ">{$data[5].point} </div> <div id="msg_{$data[5].order}"></div><div id="point" ></div></td>
+                  <td class="{$data[6].color}"><div class="ll_order"  onclick="get_ll_info({$data[6].order},2) ">{$data[6].point} </div> <div id="msg_{$data[6].order}"></div><div id="point" ></div></td>
+            </tr>
+            <tr>
+                  <td class="{$data[7].color}"><div class="ll_order" onclick="get_ll_info({$data[7].order},1) ">{$data[7].point} </div> <div id="msg_{$data[7].order}"></div><div id="point" ></div></td>
+                  <td class="{$data[8].color}"><div class="ll_order" onclick="get_ll_info({$data[8].order},1) ">{$data[8].point} </div> <div id="msg_{$data[8].order}"></div><div id="point" ></div></td>
+                  <td class="{$data[9].color}"><div class="ll_order" onclick="get_ll_info({$data[9].order,2) ">{$data[9].point} </div> <div id="msg_{$data[9].order}"></div><div id="point" ></div></td>
+                  <td class="{$data[10].color}"><div class="ll_order" onclick="get_ll_info({$data[10].order},2) ">{$data[10].point} </div> <div id="msg_{$data[10].order}"></div><div id="point" ></div></td>
+            </tr>
+
+               <input type="hidden"  id="ll_id" value="{$qid}">
+          </table>
+          </div>
+	{/if}
+      </div>
+      <div class="list" style="margin-top: 10px;">
+          <div style="width:60%;background-color: #fecc57;margin:0 auto;border-radius: 5px;height: 40px;margin-bottom:20px;">
+              <div style="text-align: center;line-height:40px;">
+                 你的队列如下，详情请点击
+              </div>
+          </div>
+          <ul>
+
+              {foreach from=$llsys.data item=qdata  key=k }
+
+                    <li>
+                     <div id="list_{$llsys.data[$k]}" style="height:47px">
+                    <a href="ll.php?page={$page_num}&act=default&qid={$llsys.data[$k]}" >
+                         100区
+                    </a>
+
+                </li>
+
+              {foreachelse}
+              <li class="first clearfix" style="font-size: 16px">暂无数据</li>
+              {/foreach}
+          </ul>
+      </div>
+    
+    <!--来啦队列表end-->
+{$pagebar}
+   </div>
+</section>
+</div>
+<!-- {/if} -->
+
+<!-- {if $action eq 'queue'} -->
+<div class="header"> <a class="back" href="ll.php?act=default"></a> <span class="headline">会员来啦中心</span> <a class="search" href="search.php"></a> </div>
+<section style="width:100%;margin:45px auto 0;overflow:hidden;">
+  <div class="user">
+    <!--顶部基本信息begin-->
+    <div class="info">
+	  <table width="100%">
+		  <tr style="height:30px;"><td width="50%">用户名：{$smarty.session.user_name}</td>
+		  </tr>
+	  </table>
+      <!-- 排行榜logo -->
+    </div>
+    <!--顶部基本信息end-->
+   </div>
+</section>
+</div>
+
+ 	 <table width=100% cellspacing=5 cellpadding=5 border=1 bordercolor="#ffffff">		
+			<tr align="center" height='30'>
+        <td  bgcolor="#eee">单号</td>
+        <td  bgcolor="#eee">点数</td>
+        <td  bgcolor="#eee">属性</td>
+        <td  bgcolor="#eee">操作</td>
+      </tr>
+      <!-- {foreach from=$orderdata item=item} -->
+	  <tr align="left" height='30'>
+        <td align="center" bgcolor="#eee">{$item.order}</td>
+        <td align="center" bgcolor="#eee">{$item.point}</td>
+        <td align="center" bgcolor="#eee">{$item.otype}</td>
+        <td align="center" bgcolor="#eee">
+        	<a href="ll.php?act=order&qid={$qid}&oid={$item.order}" >详情</a><a class="link">
+        </td>
+      </tr>
+      <!--{/foreach}-->
+    </table>
+
+<!-- {/if} -->
+
+<!-- {if $action eq 'order'} -->
+<div class="header"> <a class="back" href="ll.php?act=queue&qid={$qid}"></a> <span class="headline">会员来啦中心</span> <a class="search" href="search.php"></a> </div>
+<section style="width:100%;margin:45px auto 0;overflow:hidden;">
+  <div class="user">
+    <!--顶部基本信息begin-->
+    <div class="info">
+	  <table width="100%">
+		  <tr style="height:30px;"><td width="50%">用户名：{$smarty.session.user_name}</td>
+		  </tr>
+		  <td>编号：<strong>{$llsys.oid}</strong></td>
+		  <tr style="height:30px;">
+			  <td>类型：<strong>{$llsys.queuetype}</strong></td>
+		  </tr>
+		  <td>活跃度：<strong>{$llsys.point}</strong></td>
+		  <td>时间：<strong>{$llsys.localdate}</strong></td>
+	  </table>
+      <!-- 排行榜logo -->
+    </div>
+    <!--顶部基本信息end-->
+   </div>
+</section>
+</div>
+<!-- {/if} -->
+
+<!-- #资金管理开始 -->
+<!--{if $action eq "ll_account" || $action eq "ll_credit" ||  $action eq "ll_transfer"  ||  $action eq "ll_tb_balance"} -->
+	<div class="header"><a class="back" href="javascript:history.back();"></a><span class="headline">资金管理</span><a class="search" href="search.php"></a></div>
+	<section>
+	<div class="m_cat">
+		<table width=100% cellspacing=5 cellpadding=5 border=0>
+			<tr>
+				<td bgcolor='#ffffff' height='30' align='center' >
+<!--					<a href="ll.php?act=ll_account">资金明细</a>  <a href="ll.php?act=ll_credit"><font class="red">T币提现</font></a> <a href="ll.php?act=ll_tb_balance"><font class="blue">T币转余额</font></a> <a href="ll.php?act=ll_transfer"><font class="red">转账</font></a>  -->
+					<a href="ll.php?act=ll_account">资金明细</a>  <a href="ll.php?act=ll_transfer"><font class="red">转账</font></a> 
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<!--{if $action eq "ll_account"} -->
+ 		<table align="center" width=90% cellspacing=5 cellpadding=5 border=1 bordercolor="#000">		
+          <tr align="left" height='30'>
+            <td bgcolor="#ffffff">时间</td>
+            <td bgcolor="#ffffff">T币</td>
+            <td bgcolor="#ffffff">L币</td>
+            <td bgcolor="#ffffff">备注</td>
+          </tr>
+          <!--{foreach from=$account_log item=item}-->
+          <tr align="left" height='30'>
+            <td bgcolor="#ffffff">{$item.change_time}</td>
+            <td bgcolor="#ffffff">{$item.tb_bal}</td>
+            <td bgcolor="#ffffff">{$item.lb_bal}</td>
+            <td bgcolor="#ffffff">{$item.short_change_desc}</td>
+          </tr>
+          <!--{foreachelse}-->
+          <tr height='30'>
+            <td align="center" bgcolor="#ffffff" colspan="4" class="red">暂无记录</td>
+          </tr>
+          <!--{/foreach}-->
+        </table>
+        {$pagebar}
+	<!-- {/if} -->
+
+	<!--{if $action eq "ll_credit"} -->
+        <script type="text/javascript">
+            function submit(obj){
+               // obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入提款金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+               // theform.submit();
+            }
+        </script>
+  {if $realnameflag eq 0}
+        <form name="theForm" method="post" action="ll.php"  id="myform_zhifubox">
+        <table width="100%" border="1" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+	          <tr>
+	            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;说明:</td>
+	            <td bgcolor="#fffff" >即时提款功能已经开通，请完成实名认证、提款银行卡注册，可以使用此功能。</td>
+	            </td>
+	          </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+{/if}
+{if $realnameflag eq 1}
+        <form name="theForm" method="post"  id="myform_zhifubox" action="ll.php" >
+        <table width="100%" border="1" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+  			<p>&nbsp;</p>
+          
+ 	          <tr>
+	            <td width="25%" bgcolor="#ffffff" >&nbsp;&nbsp;说明:</td>
+	            <td bgcolor="#fffff" >即时提款，选择提款银行卡并输入提款金额，提款后 2小时内到账。</br>提款手续费10%,尽量在工作时间提款，如果节假日不到账，下个工作日处理!</td>
+	            </td>
+	          </tr>
+		                <tr>
+		                  <td bgcolor="#ffffff">请选择提款卡:</td>
+		                  <td colspan="3" align="left" bgcolor="#ffffff"><select name="bankaccount" id="selcard_{$sn}">
+		                      <option value="0">请选择卡号</option>
+		                      <!-- {foreach from=$realnamedata item=card} -->
+		                      <option value="{$card.bankaccount}" {if $card.cardtype eq 2}selected{/if}>{$card.bankaccount}</option>
+		                      <!-- {/foreach} -->
+		                    </select>
+		                  </td>
+		                </tr>
+		          
+	          <tr>
+	            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;可提款金额:</td>
+	            <td bgcolor="#fffff" >{$surplus_amount}<br />
+	            </td>
+	          </tr>
+	          <tr>
+	            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;提款金额:</td>
+	            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" class="inputBg" size="30" />
+	            </td>
+	          </tr>
+
+            </table>
+            <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="1" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="ll_act" />
+                        <button onclick="zhifucheck();return false">提现</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+	{/if}
+ 	<!-- {/if} -->
+
+    <!-- {if $act eq "ll_tb_balance"} -->
+        <script type="text/javascript">
+            function submit(obj){
+                obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入充值金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+                theform.submit();
+            }
+        </script>
+        <form name="theForm" method="post" action="ll.php" id="myform_zhifubox">
+ 		<table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+           <tr>
+            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;T币余额:</td>
+            <td bgcolor="#fffff" >{$award_amount}</td>
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;转提金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" id="amount" value=""  onblur="sum_award_amount({$tb_bal},this.value,{$award_bl});" class="inputBg" size="30" />
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;到账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_amount" id="s_amount" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+        	
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;注意信息:</td>
+            <td bgcolor="#ffffff">积分转提收取{$award_bl}%手续费，<br>比如：转提10000元，实际到账户<br>金额{$award_je}元！</td>
+            </td>
+          </tr>
+ 
+             <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="2" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="act" value="ll_act" />
+                        <button  clas="btn" onclick="zhifucheck();return false ">提交申请</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="zhifubox"></div>
+    <!-- {/if} -->
+
+	<!--{if $action eq "ll_transfer"} -->
+        <script type="text/javascript">
+            function submit(obj){
+              //  obj.submit();
+            }
+            function check(theForm){
+                if(theForm.amount.value==""){
+                    alert("请输入金币转出金额!");theForm.amount.focus();return false;
+                }else{
+                    var reg = /^[\.0-9]+/;
+                    if ( ! reg.test(theForm.amount.value)){
+                        alert("输入的金额格式不正确!");theForm.amount.focus();return false;
+                    }
+                }
+               // theform.submit();
+            }
+        </script>
+        <form name="theForm" method="post" action="ll.php" id="myform_zhifubox">
+ 		<table width=99% align="center" cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+           <tr>
+            <td width="25%" bgcolor="#fffff" >&nbsp;&nbsp;T币余额:</td>
+            <td bgcolor="#fffff" >{$tb_bal}T币</td>
+           </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;转账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="amount" id="amount" value=""  onblur="sum_gold_amount(0,{$tb_bal},0,this.value);" class="inputBg" size="30" />
+            </td>
+          </tr>
+          
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;到账金额:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_amount" id="s_amount" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+          <tr>
+            <td width="15%" bgcolor="#fffff"  align="right">转出用户:</td>
+            <td bgcolor="#fffff" id="myphone" >{$myphone}</td>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="15%" bgcolor="#ffffff" align="right">转入账户:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="tocode" id="tocode" value=""  onblur="get_user_name(this.value);" class="inputBg" size="30" />
+            </td>
+          </tr>
+
+          <tr>
+            <td width="15%" bgcolor="#ffffff" align="right">转入名称:</td>
+            <td bgcolor="#ffffff" align="left"><input type="text" name="s_username" id="s_username" class="inputBg" size="30" readonly />
+            </td>
+          </tr>
+        	
+          <tr>
+            <td width="25%" bgcolor="#ffffff">&nbsp;&nbsp;提示信息:</td>
+            <td bgcolor="#ffffff">转账收取5%手续费，比如：转账1000元，实际到积分（金币)账户金额950元！</td>
+            </td>
+          </tr>
+ 
+             <table width=99% align="center" cellspacing=5 cellpadding=5 border=0 bordercolor="#eee">
+                <tr align="center">
+                    <td bgcolor="#fff" style="padding:8px 0;" class="cz_btn">
+                        <input type="hidden" name="surplus_type" value="3" />
+                        <input type="hidden" name="rec_id" value="{$order.id}" />
+                        <input type="hidden" name="tftype" id="tftype"  value="tb_bal" />
+                        <input type="hidden" name="act" value="ll_act" />
+                       <button class="btn" onclick="zhifucheck();return false">提交申请</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+       <div id="zhifubox"></div>
+  <!-- {/if} -->
+
+
+</section>
+</div>
+<!-- {/if} -->
+<!-- #资金管理结束 -->
+
+  <!-- {if $action eq 'llmsg'} -->
+  <div class="header"><a class="back" href="javascript:history.back();"></a><span class="headline">来啦信息提示</span></div>
+  <section>
+  <div class="pending-order">
+  	<table width=100% cellspacing=5 cellpadding=5 border=1 bordercolor="#eee">		
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+			<tr align="center" height='30'>
+					<td  color="#eee"><font style="color:#FF0000">{$message.content}</td> 
+			</tr>
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+        	<td align="center" ><button><a href={$message.back_url}>返回</a></button></td>              
+			<tr align="left" height='30'>
+					<td  color="#eee"><font style="color:#FF0000"></td> 
+			</tr>
+    </table> 	  
+  </div>
+  </section>
+  </div>
+  <!-- {/if} -->
+  <!--#llmsg end-->
+
+<script type="text/javascript">
+		var global_loading=document.getElementById("global_loading");
+		global_loading.parentNode.removeChild(global_loading);
+</script>
+<script  type="text/javascript">
+
+      function  get_ll_info(obj,pos){
+
+
+          var oid=obj;
+
+          var qid=document.getElementById("ll_id").value;
+         var msg="msg_"+obj;
+
+         var  lldata=document.querySelectorAll("#lldata");
+         // alert(lldata);
+
+          var len=lldata.length;
+        if(len==0) {
+            document.getElementById(msg).style.display = "block";
+        }else{
+            document.getElementById(msg).style.display = "block";
+
+            for( var i = 0 , j = len ; i < j ; i++ ){
+
+                lldata[i].style.display = "none";
+
+            }
+
+        }
+
+
+
+
+
+
+          Ajax.call( 'll.php?act=order', 'qid=' + qid+'&oid='+oid+'&pos='+pos, lldata_callback , 'GET', 'TEXT', true, true );
+
+      }
+
+
+    function  lldata_callback(result){
+        var obj = new Function("return" + result)();
+
+        if(obj.resp_code==0){
+
+         // var msg="<div id='lldata_1' style='background-color:#fff;width:50%;margin-left:30%;border: 3px solid #2cb7fe;border-radius: 15px;text-align: center;font-size: 18px'><span id='mask_close' onclick='hideMask()' style='margin-left:75%;font-size: 20px;color:#2cb7fe'>x</span><table  style='width:60%;margin:auto;font-size: 20px'><tr><td>编号:</td><td>"+obj.oid+"</td></tr><tr><td>类型:</td><td>"+obj.queuetype+"</td></tr><tr><td>点数:</td><td>"+obj.point+"</td></tr><tr><td>时间:</td><td>"+obj.localdate+"</td></tr></table></div>";
+
+
+           var message="活跃度"+obj.point+"进入时间"+ getLocalTime(obj.localdate);
+
+            if(obj.pos==1) {
+                 var msg="<div id='lldata' style='height:70px;width:60%;margin-left:11%;text-align: center;font-size: 18px;z-index: 999;position: absolute;word-break:break-word; ;margin-top:-10px;overflow: hidden; '><img src='images/ll5.png' width='100%'><div style='padding-left: 15px;color:#000;font-size: 16px;margin-top:-43px'>"+message+"</div></div>";
+            }else {
+                var msg = "<div id='lldata' style='height:70px;width:60%;margin-left:-43%;text-align: center;font-size: 18px;z-index: 999;position: absolute;word-break:break-word; ;margin-top:-10px;background-position:150px 0px;overflow: hidden; '><img src='images/ll6.png' width='100%'><div style='padding-left: 5px;padding-right: 10px;color:#000;font-size:16px;margin-top:-43px'>"+message+"</div></div>";
+            }
+
+
+            var  name="msg_"+obj.oid;
+
+            document.getElementById(name).innerHTML=msg;
+
+
+
+        }
+
+    }
+
+
+      function getLocalTime(ns) {
+          var  nian=ns.substring(0,4)
+          var  yue=ns.substring(4,6);
+          var  ri=ns.substring(6,8);
+
+          return  nian+"年"+yue+"月"+ri+"日";
+
+      }
+
+      function GetQueryString(name)
+      {
+          var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+          var r = window.location.search.substr(1).match(reg);
+          if(r!=null)return  unescape(r[2]); return null;
+      }
+
+      var  qid=GetQueryString("qid");
+      var  list_name="list_"+qid;
+      if(qid>0){
+
+          document.getElementById(list_name).style.border= "solid 2px red";
+      }
+
+
+      function close_all(){
+
+          var  lldata=document.querySelectorAll("#lldata");
+          // alert(lldata);
+
+          var len=lldata.length;
+          if(len>0){
+
+              for( var i = 0 , j = len ; i < j ; i++ ){
+
+                  lldata[i].style.display = "none";
+
+              }
+
+          }
+
+
+      }
+
+
+
+</script>
+</body>
+</html>

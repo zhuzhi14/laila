@@ -1,0 +1,118 @@
+{if $full_page}
+<!-- $Id: user_buyorder.htm 15616 2009-02-18 05:16:22Z sunxiaodong $ -->
+{include file="pageheader.htm"}
+{insert_scripts files="../js/utils.js,listtable.js"}
+<div class="form-div">
+  <form action="javascript:searchMsg()" name="searchForm">
+    <img src="images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH" />
+    {$lang.nowstates}:
+    <select name="msg_type">
+      <option value="-1">{$lang.select_please}</option>
+      <option value="0">{$lang.type[0]}</option>
+      <option value="1">{$lang.type[1]}</option>
+ 
+    </select>
+    {$lang.buy_ucode}: <input type="text" name="keyword" /> <input type="submit" class="button" value="{$lang.button_search}" />
+  </form>
+</div>
+<form method="POST" action="user_buyorder.php?act=batch_drop" name="listForm" onsubmit="return confirm_bath()">
+<!-- start article list -->
+<div class="list-div" id="listDiv">
+{/if}
+<table cellpadding="3" cellspacing="1">
+  <tr>
+    <th>
+      <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+      <a href="javascript:listTable.sort('o_id'); ">{$lang.o_id}</a>{$sort_o_id}
+    </th>
+    <th><a href="javascript:listTable.sort('bordernum'); ">{$lang.bordernum}</a>{$sort_bordernum}</th>
+    <th><a href="javascript:listTable.sort('ucode'); ">{$lang.ucode}</a>{$sort_ucode}</th>
+    <th> {$lang.buynum}</th>
+	 <th> {$lang.totalmoney}</th>
+    <th> {$lang.weekfan}</th>
+   <th> {$lang.fanzong}</th>
+    <th> {$lang.fanok}</th>
+	
+	<th><a href="javascript:listTable.sort('ifout'); ">{$lang.ifout}</a>{$sort_ifout}</th>
+    <th><a href="javascript:listTable.sort('addtime'); ">{$lang.addtime}</a>{$sort_addtime}</th>
+     <th> {$lang.paycode} </th>
+    
+  </tr>
+  {foreach from =$msg_list item=msg}
+  <tr>
+    <td><input type="checkbox" name="checkboxes[]" value="{$msg.o_id}" />{$msg.o_id}</td>
+    <td align="center">{$msg.bordernum}</td>
+    <td align="left">{$msg.ucode} </td>
+   
+	<td align="center">{$msg.buynum}</td>
+    <td align="left">{$msg.totalmoney} </td>
+     <td align="center">{$msg.weekfan}</td>
+    <td align="left">{$msg.fanzong} </td>
+    <td align="left">{$msg.fanok} </td>
+	<td align="center">{$msg.ifout}  </td>
+    <td align="center"  nowrap="nowrap">{$msg.addtime}</td>
+ <td align="center"  nowrap="nowrap">{$msg.paycode}</td>
+  </tr>
+  {foreachelse}
+  <tr><td class="no-records" colspan="8">{$lang.no_records}</td></tr>
+  {/foreach}
+</table>
+<table id="page-table" cellspacing="0">
+<tr>
+  <td><div>
+      </div></td>
+  <td align="right" nowrap="true">
+  {include file="page.htm"}
+  </td>
+</tr>
+</table>
+{if $full_page}
+</div>
+<!-- end article list -->
+</form>
+<script type="text/javascript" language="JavaScript">
+listTable.recordCount = {$record_count};
+listTable.pageCount = {$page_count};
+cfm = new Object();
+cfm['allow'] = '{$lang.cfm_allow}';
+cfm['remove'] = '{$lang.cfm_remove}';
+cfm['deny'] = '{$lang.cfm_deny}';
+{foreach from=$filter item=item key=key}
+listTable.filter.{$key} = '{$item}';
+{/foreach}
+{literal}
+<!--
+onload = function()
+{
+    document.forms['searchForm'].elements['keyword'].focus();
+    // 开始检查订单
+    startCheckOrder();
+}
+
+/**
+ * 搜索标题
+ */
+function searchMsg()
+{
+    var keyword = Utils.trim(document.forms['searchForm'].elements['keyword'].value);
+    var msgType = document.forms['searchForm'].elements['msg_type'].value;
+
+    listTable.filter['keywords'] = Utils.trim(document.forms['searchForm'].elements['keyword'].value);
+    listTable.filter['msg_type'] = document.forms['searchForm'].elements['msg_type'].value;
+    listTable.filter['page'] = 1;
+    listTable.loadList();
+}
+
+function confirm_bath()
+{
+    var action = document.forms['listForm'].elements['sel_action'].value;
+    if (action == 'allow'||action == 'remove'||action == 'deny')
+      {
+          return confirm(cfm[action]);
+      }
+}
+//-->
+</script>
+{/literal}
+{include file="pagefooter.htm"}
+{/if}
